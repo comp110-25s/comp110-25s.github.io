@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Software Setup - COMP110 - 24S</title>
+  <link rel="icon" type="image/png" href="/static/cottage_logo.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/static/styles.css?v=1736186457.0651314">
+</head>
+
+
+<body id="body" class="absolute-page">
+    <script>
+        document.body.classList.remove('light-mode');
+        document.body.classList.remove('dark-mode');
+        document.body.classList.add(localStorage.getItem('mode'));
+    </script>
+  <script src="/static/scripts/nav-menu-esc.js"></script> 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark py-1 fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/"><img class="lightmode-element-only img-fluid logo" src="/static/assets/cottagecore_nav.png"
+        alt="COMP110 - Spring - 2024"><img class="darkmode-element-only img-fluid logo" src="/static/cottagebrand_dark.png"
+        alt="COMP110 - Spring - 2024"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" onclick="esc_key()" data-bs-target="#navmenu" aria-label="Main Menu" aria-controls="#navmenu" role="navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="/">agenda</a>
+          </li>
+          <li class="nav-item">
+            <a href="/resources" class="nav-link">resources</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="/support" class="nav-link">support</a>
+          </li>
+         
+          <li class="nav-item">
+            <a href="/resources/syllabus.html" class="nav-link">syllabus</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="/resources/team.html" class="nav-link">team110</a>
+          </li>
+         
+        </ul>
+      </div>
+      <div id='mode-switch' class="ms-auto form-check form-switch mode switches">
+              <div class="switches">
+                  <input type="checkbox" id="1" onclick="
+                      if (localStorage.getItem('mode') === 'dark-mode') {
+                          localStorage.setItem('userPref', 'light-mode');
+                          localStorage.setItem('mode', 'light-mode');
+                      } else {
+                          localStorage.setItem('userPref', 'dark-mode');
+                          localStorage.setItem('mode', 'dark-mode');
+                      }
+                      location.reload();">
+                  <label for="1">
+                      <span id="mode-label">Dark Mode</span>
+                      <span></span>
+                  </label>
+                  <script>if(localStorage.getItem('mode') === 'dark-mode'){document.getElementById("1").checked = true}</script>
+                  <script>if(localStorage.getItem('userPref') === null) {setTimeout(function(){location.reload();}, (timer * 3600000));}</script>
+              </div>
+          </div>
+    </div>
+  </nav>
+
+  <div class="cloud-container">
+    <div id="cloud-intro">
+  <div id="resource-page" class="container">
+    <div class="row pt-4">
+      <div class="col-12">
+        <h1>Software Setup</h1>
+      </div>
+    </div>
+    
+
+    <script src="/static/scripts/toggle-handler.js"></script>
+    
+    <div class="row px-4">
+        <div id="box" class="toc col-xl-3 col-lg-3 order-1 order-lg-2" role="doc-toc">
+            <div>
+                <div id="menu-overview" class="link-page-overview horizon-box">
+                    <button id="overview-button" class="btn btn-ov" onclick="hideshow()" >Overview  <img id="button-img" alt="Overview" class="filter-icon" src="/static/components/Itinerary/arrow-up.svg" style="height:15px; padding-left: 4px;"></button>
+                    <div id="overview-links">
+                        <div id="TOC" role="doc-toc">
+                            <ul class="overview-item"><ul>
+<li><a href="#windows-10-and-11-instructions">Windows 10 and 11 Instructions</a>
+<ul>
+<li><a href="#before-installing-docker-you-will-need-to-enable-wsl-windows-subsystem-for-linux">0. Before installing Docker, you will need to enable WSL (Windows Subsystem for Linux)</a></li>
+<li><a href="#install-docker-desktop">1. Install Docker Desktop</a></li>
+<li><a href="#install-the-git-source-code-management-software-scm">2. Install the git Source Code Management Software (SCM)</a></li>
+<li><a href="#install-the-visual-studio-code-vscode-text-editor">3. Install the Visual Studio Code (VSCode) Text Editor</a></li>
+<li><a href="#reboot-your-machine">4. Reboot your machine!</a></li>
+<li><a href="#continue-to-workspace-setup">5. Continue to Workspace Setup</a></li>
+</ul></li>
+<li><a href="#macos-instructions">macOS Instructions</a>
+<ul>
+<li><a href="#check-to-see-your-mac-computerprocessorcpu-is-made-by-intel-or-apple">0. Check to see your mac Computer/Processor/CPU is made by Intel or Apple</a></li>
+<li><a href="#download-and-install-docker-desktop">1. Download and Install Docker Desktop</a></li>
+<li><a href="#install-the-git-source-code-management-software-scm-1">2. Install the git Source Code Management Software (SCM)</a></li>
+<li><a href="#install-the-visual-studio-code-vscode-text-editor-1">3. Install the Visual Studio Code (VSCode) Text Editor</a></li>
+<li><a href="#reboot-your-machine-1">4. Reboot your machine!</a></li>
+<li><a href="#continue-to-workspace-setup-1">5. Continue to Workspace Setup</a></li>
+</ul></li>
+</ul>
+</</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content" class="content box col-xl-9 col-lg-9 order-2 order-lg-1 pt-3"><p>This guide will walk you through installing the software you’ll need for the course. Before diving in it’s worth understanding what you’re about to do at a high level.</p>
+<p>First, you should be sure your operating system is up-to-date. If you did not already move through the <a href="/resources/setup/os-update.html">Operating System Update</a> steps, then go ahead and do that first.</p>
+<p>Next, you’ll install the software needed to <em>write your own programs</em> in the course. We will be using a modern technology called Docker Containers and VSCode to ensure your development tools are exactly the same as everyone else’s in the course, regardless of whether you are on Windows or Mac. We will talk more about each, but briefly Docker is what allows us to bundle the same required software for everyone and VSCode will be the program you write your programs in.</p>
+<p>Follow the instructions for your operating system, either:</p>
+<ul>
+<li><a href="#windows-10-and-11-instructions">Windows 10 and 11</a></li>
+<li><a href="#macos-instructions">macOS</a></li>
+</ul>
+<hr />
+<h1 id="windows-10-and-11-instructions">Windows 10 and 11 Instructions</h1>
+<p>Before beginning, be sure you are using the latest version of <a href="/resources/setup/os-update.html#windows-10">Windows 10</a> or 11.</p>
+<h2 id="before-installing-docker-you-will-need-to-enable-wsl-windows-subsystem-for-linux">0. Before installing Docker, you will need to enable WSL (Windows Subsystem for Linux)</h2>
+<ol type="1">
+<li>From your Start Menu, please search for PowerShell and open it as an Administrator (right-click and select “Run as Administrator”)</li>
+<li><strong>Be sure you opened PowerShell as an Administrator! In the previous step you should have right-clicked and selected “Run as Administrator”</strong>.</li>
+<li>Type in the command <code>wsl --install</code> and press enter. This will take a few minutes to complete. Note there are two dashes before the word <code>install</code>.</li>
+</ol>
+<h2 id="install-docker-desktop">1. Install Docker Desktop</h2>
+<ol type="1">
+<li><a href="https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe">Download Docker Desktop application by clicking this link</a>.</li>
+<li>Open the installer you just downloaded and follow its instructions to install Docker Desktop.</li>
+</ol>
+<p>You may need to reboot your computer in this process.</p>
+<h2 id="install-the-git-source-code-management-software-scm">2. Install the git Source Code Management Software (SCM)</h2>
+<ol type="1">
+<li>Open the git website in another tab: <a href="https://git-scm.com" class="uri">https://git-scm.com</a></li>
+<li>Look for the button to “Download for Windows” (it is embedded in a monitor graphic to the right)</li>
+<li>After the download begins open the installer</li>
+<li>Allow the app to make changes and install</li>
+<li>Press Next on the Information page</li>
+<li>Press Next on the Destination Location page (default is fine)</li>
+<li>Press Next on the Components page (defaults are fine)</li>
+<li>Press Next on the Start Menu Folder page</li>
+<li>Choose Visual Studio Code as Git’s default editor and press Next</li>
+<li>Press Next/Install on the remaining pages and accept the defaults</li>
+</ol>
+<h2 id="install-the-visual-studio-code-vscode-text-editor">3. Install the Visual Studio Code (VSCode) Text Editor</h2>
+<ol start="0" type="1">
+<li>Open the <strong>VSCode website</strong> in another tab: <a href="https://code.visualstudio.com/" target="_blank">https://code.visualstudio.com/</a></li>
+<li>Select the large <strong>Download for Windows</strong> button (Stable Build)</li>
+<li>Open the downloaded installer after its download completes
+<ol start="0" type="1">
+<li>Accept the licensing agreement</li>
+<li>You’re asked <em>where</em> to install VS Code. The suggested location is OK. Press Next.</li>
+<li>You’re asked if you want to add VS Code to your start menu. That’s OK, too. Press Next.</li>
+<li><strong>Important</strong> Under additional tasks, <strong>check all</strong> of the options available.
+<ul>
+<li>These options make it easier for you to open files in VS Code.</li>
+</ul></li>
+<li>At Ready to Install, select Install.</li>
+</ol></li>
+</ol>
+<h2 id="reboot-your-machine">4. Reboot your machine!</h2>
+<p>Reboot your computer now. Some settings of the applications you just installed will not take effect until you reboot. Attempting to continue on from this point without rebooting will lead to strange errors later.</p>
+<p>Once you’ve completed this, you’ve got the necessary software installed! Great work!</p>
+<h2 id="continue-to-workspace-setup">5. Continue to Workspace Setup</h2>
+<p>Now that your software is installed, it’s time to setup your personal workspace for the course. Continue on to <a href="/resources/setup/workspace.html">Workspace Setup</a>.</p>
+<hr />
+<h1 id="macos-instructions">macOS Instructions</h1>
+<p>Before beginning, be sure you are using the latest version of <a href="/resources/setup/os-update.html#macos">macOS</a>.</p>
+<h2 id="check-to-see-your-mac-computerprocessorcpu-is-made-by-intel-or-apple">0. Check to see your mac Computer/Processor/CPU is made by Intel or Apple</h2>
+<ol start="0" type="1">
+<li>Open Spotlight Search (the magnifying glass icon in the top-right corner), search for: <em>About this Mac</em>.</li>
+<li>Look for the <em>“Processor”</em> or <em>“Chip”</em> line. If it says <em>Apple</em>, you have an Apple Silicon CPU. If it says <em>Intel</em>, you have an Intel CPU.</li>
+</ol>
+<h2 id="download-and-install-docker-desktop">1. Download and Install Docker Desktop</h2>
+<ol start="0" type="1">
+<li><a href="https://desktop.docker.com/mac/main/amd64/Docker.dmg">If your processor is <strong>Intel</strong>, please download this version of Docker.</a></li>
+<li><a href="https://desktop.docker.com/mac/main/arm64/Docker.dmg">Otherwise, if your processor is <strong>Apple</strong>, please download this version of Docker.</a></li>
+</ol>
+<h2 id="install-the-git-source-code-management-software-scm-1">2. Install the git Source Code Management Software (SCM)</h2>
+<ol type="1">
+<li>Start a Terminal window: Open Spotlight Search (the magnifying glass icon in the top-right corner), search for: <em>Terminal</em>.</li>
+<li>Type <code>git --version</code> and press Enter.</li>
+<li>If you see text displayed such as “git version 2.39.3” then you already have git installed and can close the terminal and continue on to part 3 of Installing VSCode.</li>
+<li>If git was not already installed, you should see a pop-up window asking you to install Git / Developer Tools. Accept this install request and follow its instructions through completion. After it completes, exit and continue to Step 0 to confirm the install succeeded.</li>
+<li>Note: You may instead see a notice about accepting a license agreement and/or running a given command in your terminal. In that case, just follow the instructions and enter your password if needed.</li>
+<li>Once complete, you can close the terminal.</li>
+</ol>
+<h2 id="install-the-visual-studio-code-vscode-text-editor-1">3. Install the Visual Studio Code (VSCode) Text Editor</h2>
+<ol start="0" type="1">
+<li>Open the VSCode website in a new browser tab: <a href="https://code.visualstudio.com/" target="_blank">https://code.visualstudio.com/</a></li>
+<li>Select the large Download for Mac button</li>
+<li>When you open this Zip download, it creates an application file named Visual Studio Code in your <strong>Downloads</strong> folder and opens that folder in a new <strong>Finder</strong> window.</li>
+<li>Confirm your <strong>Finder</strong> window sidebar is visible, it should be to the left of your files and you should see <em>Applications</em> listed under <em>Favorites</em>. If you do not see the sidebar, go to the <em>View</em> menu and select <em>Show Sidebar</em>. If you do not see <em>Applications</em> listed under <em>Favorites</em>, open the <em>Finder</em> menu, select <em>Preferences…</em>, and check <em>Applications</em>.</li>
+<li>To install Visual Studio Code as an Application, drag the <em>Visual Studio Code</em> icon into your <em>Applications</em> directory which you should see in the left-hand sidebar of the Finder window under Favorites.</li>
+<li>Open Spotlight Search again (<code>Command + Space</code> or the search icon by your clock) and search for “Code”. You should see Visual Studio Code in the results. Open it and it will likely ask to confirm it’s OK to open a file downloaded off the internet. Accept.</li>
+<li>You should see Visual Studio Code open to a Welcome tab. If you do, you’re all set and can close it for now and continue on.</li>
+</ol>
+<h2 id="reboot-your-machine-1">4. Reboot your machine!</h2>
+<p>Reboot your computer now. Some settings of the applications you just installed will not take effect until you reboot. Attempting to continue on from this point without rebooting will lead to strange errors later.</p>
+<p>Once you’ve completed this, you’ve got the necessary software installed! Great work!</p>
+<h2 id="continue-to-workspace-setup-1">5. Continue to Workspace Setup</h2>
+<p>Now that your software is installed, it’s time to setup your personal workspace for the course. Continue on to <a href="/resources/setup/workspace.html">Workspace Setup</a>.</p>
+</div>
+
+       
+
+    </div> 
+    </div>
+    </div>
+    <div class="authors-box bg-dark mt-4 py-3 ps-4">
+      <span> Contributor(s): Kris Jordan</span>
+    </div>
+
+  </div>
+  <div class='link-page mt-3 container'>
+    <footer>
+      <h3 class="text-center align-middle footer-text">&copy; 2024 <a href="https://krisjordan.com">Kris Jordan</a>
+        - <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSenaJ2uZ_n2FfAb2PWL6YPG4AUT-G2-xVJP6HIwMr6cd6nSYA/viewform?usp=sf_link">Feedback
+          Form</a>
+        - Made with 💛 in <a href="https://cs.unc.edu/">Chapel Hill</a></h3>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <!-- Code Block Formatting -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  
+</body>
+
+</html>

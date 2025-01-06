@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> while Loops - COMP110 - 24S</title>
+  <link rel="icon" type="image/png" href="/static/cottage_logo.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/static/styles.css?v=1736186489.3296154">
+</head>
+
+
+<body id="body" class="absolute-page">
+    <script>
+        document.body.classList.remove('light-mode');
+        document.body.classList.remove('dark-mode');
+        document.body.classList.add(localStorage.getItem('mode'));
+    </script>
+  <script src="/static/scripts/nav-menu-esc.js"></script> 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark py-1 fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/"><img class="lightmode-element-only img-fluid logo" src="/static/assets/cottagecore_nav.png"
+        alt="COMP110 - Spring - 2024"><img class="darkmode-element-only img-fluid logo" src="/static/cottagebrand_dark.png"
+        alt="COMP110 - Spring - 2024"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" onclick="esc_key()" data-bs-target="#navmenu" aria-label="Main Menu" aria-controls="#navmenu" role="navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="/">agenda</a>
+          </li>
+          <li class="nav-item">
+            <a href="/resources" class="nav-link">resources</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="/support" class="nav-link">support</a>
+          </li>
+         
+          <li class="nav-item">
+            <a href="/resources/syllabus.html" class="nav-link">syllabus</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="/resources/team.html" class="nav-link">team110</a>
+          </li>
+         
+        </ul>
+      </div>
+      <div id='mode-switch' class="ms-auto form-check form-switch mode switches">
+              <div class="switches">
+                  <input type="checkbox" id="1" onclick="
+                      if (localStorage.getItem('mode') === 'dark-mode') {
+                          localStorage.setItem('userPref', 'light-mode');
+                          localStorage.setItem('mode', 'light-mode');
+                      } else {
+                          localStorage.setItem('userPref', 'dark-mode');
+                          localStorage.setItem('mode', 'dark-mode');
+                      }
+                      location.reload();">
+                  <label for="1">
+                      <span id="mode-label">Dark Mode</span>
+                      <span></span>
+                  </label>
+                  <script>if(localStorage.getItem('mode') === 'dark-mode'){document.getElementById("1").checked = true}</script>
+                  <script>if(localStorage.getItem('userPref') === null) {setTimeout(function(){location.reload();}, (timer * 3600000));}</script>
+              </div>
+          </div>
+    </div>
+  </nav>
+
+  <div class="cloud-container">
+    <div id="cloud-intro">
+  <div id="exercises-page" class="container">
+    <div class="row pt-4">
+      <div class="col-12">
+        <h1>while Loops</h1>
+      </div>
+    </div>
+    
+
+    <script src="/static/scripts/toggle-handler.js"></script>
+    
+    <div class="row px-4">
+        <div id="box" class="toc col-xl-3 col-lg-3 order-1 order-lg-2" role="doc-toc">
+            <div>
+                <div id="menu-overview" class="link-page-overview horizon-box">
+                    <button id="overview-button" class="btn btn-ov" onclick="hideshow()" >Overview  <img id="button-img" alt="Overview" class="filter-icon" src="/static/components/Itinerary/arrow-up.svg" style="height:15px; padding-left: 4px;"></button>
+                    <div id="overview-links">
+                        <div id="TOC" role="doc-toc">
+                            <ul class="overview-item"><ul>
+<li><a href="#intoducing-while-loop-statements">Intoducing <code>while</code> Loop Statements</a>
+<ul>
+<li><a href="#iterating-over-a-sequence">Iterating over a Sequence</a></li>
+</ul></li>
+</ul>
+</</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content" class="content box col-xl-9 col-lg-9 order-2 order-lg-1 pt-3"><h2 id="intoducing-while-loop-statements">Intoducing <code>while</code> Loop Statements</h2>
+<p>Now that you understand what a variable is, it is time to learn a powerful new kind of statement: a <code>while</code> loop statement.</p>
+<p>A <code>while</code> statement, like an <code>if</code> statement, is related to the <em>control flow</em> of a program. <em>Control flow</em> refers to where “control” or <em>the next line of execution</em> continues to next.</p>
+<p>Like an <code>if</code> statement, it has a <em>boolean expression</em> test <strong>condition</strong> and a <em>body</em>.</p>
+<p><strong>IMPORTANTLY,</strong> unlike an <code>if</code> statement, when <em>control</em> finishes with the last line of the body, it <strong>jumps</strong> or <strong>loops</strong> back up to the <em>boolean test expression</em> again.</p>
+<p>Try creating a new <code>.py</code> file in your code editor with the following contents and playing with the argument value assigned to <code>n</code> in the function call:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="kw">def</span> print_0_to_n(n: <span class="bu">int</span>) <span class="op">-&gt;</span> <span class="bu">int</span>:</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>   counter: <span class="bu">int</span> <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>   <span class="cf">while</span> counter <span class="op">&lt;</span> n:</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a>      <span class="bu">print</span>(counter)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a>      counter <span class="op">=</span> counter <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a>   <span class="bu">print</span>(<span class="ss">f&quot;Final: </span><span class="sc">{</span>counter<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a>   <span class="cf">return</span> counter</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true"></a><span class="bu">print</span>(print_0_to_n(n<span class="op">=</span><span class="dv">4</span>))</span></code></pre></div>
+<p>Wow! That’s <em>pretty neat</em>, right? You have written a program which repeats what is inside the <code>while</code> statement’s repeat block as many times as the <code>n</code> argument provided. If you try producing a memory diagram of the above code listing, this is what you will find as the result:</p>
+<figure>
+<img src="/static/lessons/variables/ls-while.png" alt="" /><figcaption>Environment Diagram for Above</figcaption>
+</figure>
+<p>Notice with a <code>while</code> loop, we are able to achieve <em>repeating pattern</em>. This is possible thanks to the combination of the <code>counter</code> variable’s value being incremented by one each time the <code>while</code> body reaches the line <code>counter = counter + 1</code>, before jumping back to the test of <code>counter &lt; n</code> and repeating anew. Eventually, <code>counter</code>’s value is incremented to no longer be less than <code>n</code> and the loop completes. Control then jumps to the next line following the loop body, the <code>print</code> statement, and finally returns the current value of <code>counter</code>.</p>
+<h3 id="iterating-over-a-sequence">Iterating over a Sequence</h3>
+<p>Looping is more precisely called <em>iteration</em> when some value “iterates”, or makes small steps of progress, toward some goal. In the previous example, the <code>counter</code> variable iterated toward <code>n</code>.</p>
+<p>Another use of <em>iteration</em> is iterating through the indices of a sequence. Recall a <code>str</code> is a <em>sequence of characters</em> with ordered items addressed by a 0-based index using subscription notation: <code>sequence[index]</code>.</p>
+<p>Try adding another program in your code editor <code>reverse.py</code> with the following contents. You are encouraged to type it out, rather than copy paste, to get a feeling for the syntax. The point of the program is to reverse a string by iterating through each of its characters and using concatenation in a clever way, by <em>prefixing</em> the <code>result</code> string with each subsequent letter in the <code>a_str</code> input string:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="kw">def</span> reverse(a_str: <span class="bu">str</span>) <span class="op">-&gt;</span> <span class="bu">str</span>:</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>   <span class="co">&quot;&quot;&quot;Reverse a string&quot;&quot;&quot;</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a>   idx: <span class="bu">int</span> <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a>   result: <span class="bu">str</span> <span class="op">=</span> <span class="st">&quot;&quot;</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true"></a>   <span class="cf">while</span> idx <span class="op">&lt;</span> <span class="bu">len</span>(a_str):</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true"></a>      result <span class="op">=</span> a_str[idx] <span class="op">+</span> result</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true"></a>      idx <span class="op">=</span> idx <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true"></a>   </span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true"></a>   <span class="cf">return</span> result</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true"></a><span class="bu">print</span>(reverse(a_str<span class="op">=</span><span class="st">&quot;abc&quot;</span>))</span></code></pre></div>
+<p>You are once again encouraged to try producing a memory diagram of the above code listing. It will ultimately look like this:</p>
+<figure>
+<img src="/static/lessons/variables/ls-reverse.png" alt="" /><figcaption>Environment Diagram for Above</figcaption>
+</figure>
+<p>Notice how the <code>idx</code> and <code>result</code> variables are declared ahead of the <code>while</code> loop and each serves a unique purpose. The <code>idx</code> variable keeps track of the <em>index</em> at which the iterative process is working on. The <code>result</code> variable keeps track of the “work in progress” result and updates it in the process of each iteration. Inside the loop body, importantly, the <code>idx</code> variable is increasing and iterating its way toward being at least <code>len(a_str)</code>, which is the loop’s exit condition.</p>
+<p>We will continue exploring <code>while</code> loops in more depth in the lessons and challenge questions ahead.</p>
+</div>
+
+       
+
+    </div> 
+    </div>
+    </div>
+    <div class="authors-box bg-dark mt-4 py-3 ps-4">
+      <span> Contributor(s): Kris Jordan</span>
+    </div>
+
+  </div>
+  <div class='link-page mt-3 container'>
+    <footer>
+      <h3 class="text-center align-middle footer-text">&copy; 2024 <a href="https://krisjordan.com">Kris Jordan</a>
+        - <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSenaJ2uZ_n2FfAb2PWL6YPG4AUT-G2-xVJP6HIwMr6cd6nSYA/viewform?usp=sf_link">Feedback
+          Form</a>
+        - Made with 💛 in <a href="https://cs.unc.edu/">Chapel Hill</a></h3>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <!-- Code Block Formatting -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  
+</body>
+
+</html>
