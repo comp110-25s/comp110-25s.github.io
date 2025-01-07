@@ -117,6 +117,8 @@ code {
   border-bottom: 5px solid;
   border-image-slice: 1;
   width: 100%;
+  max-inline-size: 4rem;
+
   /* display: flex !important;
   align-items: baseline !important; */
   /* linear-gradient(to right, #FE9F9F, #FEC79F, #fadf94, #BEFE9F, #9FFEC5, #9FEDFE, #CFA3DF, #FE9FE9);
@@ -146,7 +148,7 @@ code {
 }
 .navbar-brand {
   color: #0e3812 !important;
-  max-inline-size: 10rem;
+  max-inline-size: 4rem;
   margin-left: 0%;
 }
 
