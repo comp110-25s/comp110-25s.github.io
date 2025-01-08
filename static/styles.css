@@ -1238,6 +1238,14 @@ h1 {
   display: unset;
 }
 
+img.lightmode-element-only.img-fluid.logo {
+  max-height: 4rem;
+}
+
+img.darkmode-element-only.img-fluid.logo {
+  max-height: 4rem;
+}
+
 .dark-mode .darkmode-element-only {
   display: unset;
 }
