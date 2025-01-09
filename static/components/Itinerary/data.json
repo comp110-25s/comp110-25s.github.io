@@ -8,7 +8,7 @@
             "deadline": "2025-01-08",
             "links": {
                 "Slides": "/static/slides/CL00_FDOC.pdf",
-                "Recording": "/"
+                "Recording": "https://youtu.be/0Fq4szYQOJg"
             }
         },
         {
@@ -37,7 +37,29 @@
         }
     ],
     "2025-01-09": [],
-    "2025-01-10": [],
+    "2025-01-10": [
+        {
+            "kind": "CL",
+            "n": 1,
+            "title": "Objects and Data Types",
+            "date": "2025-01-10",
+            "deadline": "2025-01-10",
+            "links": {
+                "Slides": "/",
+                "Recording": "/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 2,
+            "title": "Objects and Data Types",
+            "date": "2025-01-10",
+            "deadline": "2025-01-10",
+            "links": {
+                "Complete Lesson 02 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2025-01-11": [],
     "2025-01-12": [],
     "2025-01-13": [],
