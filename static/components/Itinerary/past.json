@@ -21,19 +21,6 @@
                 "1. Read the Syllabus": "/resources/syllabus.html",
                 "2. Complete Lesson 00 Responses on Gradescope": "https://www.gradescope.com/"
             }
-        },
-        {
-            "kind": "LS",
-            "n": 1,
-            "title": "Software Setup (Due Friday 1/10)",
-            "date": "2025-01-08",
-            "deadline": "2025-01-10",
-            "links": {
-                "1. OS Update": "/resources/setup/os-update.html",
-                "2. Docker, git, VS Code": "/resources/setup/software.html",
-                "3. COMP110 Workspace": "/resources/setup/workspace.html",
-                "4. Complete the LS01 Responses on Gradescope": "https://www.gradescope.com/"
-            }
         }
     ],
     "2025-01-09": []
