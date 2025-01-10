@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1736455551.675255">
+  <link rel="stylesheet" href="/static/styles.css?v=1736488234.7541265">
 </head>
 
 
@@ -136,7 +136,7 @@
 <p>We recommend keeping VSCode and your browser, with Trailhead open, side-by-side such that you can see both at the same time. As you are writing programs, you will want to see and interact with the results of your work in the Trailhead browser window.</p>
 <h2 id="writing-your-first-program">3. Writing Your First Program</h2>
 <p>In Trailhead, navigate back to the home page by clicking “Trailhead” in the navigation.</p>
-<p>In VSCode, open the “File Explorer” pane and right-click in the blank space. Select “New File” and name the file <code>ex00_hello_world.py</code>. Double check that the filename exactly matches what is specified here. In Trailhead, you will see the your new module appear. If you click to open it, you will see that the “module exited without output.” This is because the file is empty.</p>
+<p>In VSCode, open the “Explorer” pane. Inside the “exercises” folder, you should see a module titled <code>ex00_hello_world.py</code>. Double click that filename to open and edit it. In Trailhead, you should also see this module. If you click to open it, you will see that the “module exited without output.” This is because the file is empty.</p>
 <p>Open the <code>ex00_hello_world.py</code> file in VSCode and type the following:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="bu">print</span>(<span class="st">&quot;Hello, world!&quot;</span>)</span></code></pre></div>
 <p>Save the file again, by pressing <code>Ctrl+S</code> (or <code>Cmd+S</code> on Mac). In Trailhead, you should see the message “Hello, world!” now appear as output. This should happen automatically upon saving, but you can also manually run the program again with the green “Run Again” or “Rerun” button.</p>
@@ -158,16 +158,18 @@
 <figure>
 <img src="/static/exercises/ex00/repl-greet.png" alt="" /><figcaption><code>greet</code> REPL Interactions</figcaption>
 </figure>
-<div class="turtle-talk">
+<!-- <div class="turtle-talk">
 <figure>
-<img src="/static/camp110/cozy-turtle.png" title="fig:" alt="Turtle Talk" />
+![Turtle Talk](/static/camp110/cozy-turtle.png)
 </figure>
 <div class="message">
-<p>Hi, I’m <strong>Theo the Thorough Turtle</strong>!</p>
-<p>I’m here to help you slow down and think through the details of what you are learning step-by-step. I’ll be popping up throughout the course as a reminder to zoom in on some of the beautifully, nitty gritty details of programming.</p>
-<p>At times, this can feel tedious, but when you understanding and appreciate the details, you will have the confidence to take on bigger challenges!</p>
+Hi, I'm **Theo the Thorough Turtle**!
+
+I'm here to help you slow down and think through the details of what you are learning step-by-step. I'll be popping up throughout the course as a reminder to zoom in on some of the beautifully, nitty gritty details of programming.
+
+At times, this can feel tedious, but when you understanding and appreciate the details, you will have the confidence to take on bigger challenges!
 </div>
-</div>
+</div> -->
 <p>Let’s break down what is happening here by starting with the function definition in VSCode. The following image points out the important parts of this function definition:</p>
 <figure>
 <img src="/static/exercises/ex00/function-syntax.png" alt="" /><figcaption><code>greet</code> Function Definition</figcaption>
@@ -196,18 +198,20 @@
 <ol start="3" type="1">
 <li>The <strong>Return Value</strong> from the evaluated function call is then displayed in the REPL as soon as the function call completes. In Trailhead, when you <em>evaluate</em> an expression in the REPL, the result is displayed in a blue box with a lightning bolt icon. This is to indicate that the code you entered into the REPL was an expression and the visualization indicates both the returned value, as well as its type.</li>
 </ol>
-<div class="fox-talk">
+<!-- <div class="fox-talk">
 <figure>
-<img src="/static/camp110/cozy-fox.png" title="fig:" alt="Fox Talk" />
+![Fox Talk](/static/camp110/cozy-fox.png)
 </figure>
 <div class="message">
-<p>Hi, I’m <strong>Fern the Philosophical Fox</strong>!</p>
-<p>I’m here to ask you some fierce questions and help you think like a foxy programmer as you learn. The questions I ask are important to reflect on. Taking a moment to answer them will give you confidence that you understand key ideas.</p>
-<p>You should try experimenting in either the REPL, or your Python program code, to see if you can prove to yourself that you understand the answers to my questions!</p>
+Hi, I'm **Fern the Philosophical Fox**!
+
+I'm here to ask you some fierce questions and help you think like a foxy programmer as you learn. The questions I ask are important to reflect on. Taking a moment to answer them will give you confidence that you understand key ideas.
+
+You should try experimenting in either the REPL, or your Python program code, to see if you can prove to yourself that you understand the answers to my questions!
 </div>
-</div>
-<p><strong>Fern Question 1.</strong> If an argument can be an expression, as claimed above, can you think of an example expression to use as the <code>name</code> argument in a call to your <code>greet</code> that is <strong>not</strong> just a <code>str</code> literal? This is a way of <em>proving</em> to yourself that an argument <em>can be an expression</em>. Try this in the REPL!</p>
-<p><strong>Fern Question 2.</strong> If a function call to <code>greet</code> is an expression, can you use the resulting value of a call to <code>greet</code> as the <code>name</code> argument to <em>another call</em> to <code>greet</code>? Try this in the REPL!</p>
+</div> -->
+<p><strong>Reflection Question 1.</strong> If an argument can be an expression, as claimed above, can you think of an example expression to use as the <code>name</code> argument in a call to your <code>greet</code> that is <strong>not</strong> just a <code>str</code> literal? This is a way of <em>proving</em> to yourself that an argument <em>can be an expression</em>. Try this in the REPL!</p>
+<p><strong>Reflection Question 2.</strong> If a function call to <code>greet</code> is an expression, can you use the resulting value of a call to <code>greet</code> as the <code>name</code> argument to <em>another call</em> to <code>greet</code>? Try this in the REPL!</p>
 <h2 id="ceremonial-program-structure">5. Ceremonial Program Structure</h2>
 <p>Changing tabs back to the “Run” tab in Trailhead, you will see that the module still exits without any output. This is because in your module, you have not made use of the function definition; you were experimenting with it in the REPL. This is not only OK, it’s a common strategy for writing programs: start with small functions, test them out to be sure they work, and build larger programs with them.</p>
 <p>The code you are about to add to the bottom of your <code>ex00_hello_world</code> module is “ceremonial” in nature, because it appeases a convention of the Python programming language. It’s specific to the Python programming language, and idiomatic, but different languages have different idioms for achieving the same effect. What, exactly, it means is beyond your concern right now. This is one of the few places we will tell you to just “do it this way and don’t worry about it yet.” In the weeks ahead, we will reveal the mysteries behind the ceremony.</p>
@@ -220,15 +224,16 @@
 <p>Since the <code>input</code> function call is an <em>expression</em> that returns a <code>str</code>, try to explain what you suspect the next expression evaluates to: <code>greet(name=input("What is your name? "))</code>.</p>
 <p>Finally, what must <code>print</code> be doing?</p>
 <p>I’ll bet your intuitions on how this works are very close, if not fully correct!</p>
-<div class="turtle-talk">
+<!-- <div class="turtle-talk">
 <figure>
-<img src="/static/camp110/cozy-turtle.png" title="fig:" alt="Turtle Talk" />
+![Turtle Talk](/static/camp110/cozy-turtle.png)
 </figure>
 <div class="message">
-<p>Hi, <strong>Theo</strong> again!</p>
-<p>You are doing great! I know this level of detail is a lot to take in, but let’s slow down and understand this final snippet of code needed to make EX00 a complete program!</p>
+Hi, **Theo** again!
+
+You are doing great! I know this level of detail is a lot to take in, but let's slow down and understand this final snippet of code needed to make EX00 a complete program!
 </div>
-</div>
+</div> -->
 <p>Let’s reveal at what is going on in this little snippet! First, the line <code>if __name__ == "__main__":</code> is a special kind of statement called a <em>conditional statement</em> you’ll learn about in a few weeks. The effect it has here is when you run this program in the “Run” tab, the indented code beneath the <code>if</code> statement will be evaluated. However, when you load this program in the REPL of the “Interact” tab, the code beneath the <code>if</code> statement <em>will not</em> be run. This gives us the best of both worlds.</p>
 <p>Next, under the <code>if</code> statement, you added some nested function calls. The innermost function call is <code>input("What is your name? ")</code>. The <code>input</code> function is a <a href="https://docs.python.org/3/library/functions.html#input">Python built-in</a> that prompts the user of a program for a textual input, waits for the user to enter some text and once the user does, the function call expression to <code>input</code> evaluates to the <code>str</code> of text the user typed in. For the sake of simplifying the explanation, let’s assume that you typed in the <code>"Campers"</code> when prompted for a name.</p>
 <p>The next function call evaluated is <code>greet(name="Campers")</code>, where the <code>name</code> argument will be <code>"Campers"</code> because that’s what the call to <code>input</code> evaluated to in the previous paragraph. This function call expression works through the same set of steps described in the previous section and calls your <code>greet</code> function! Remember, your <code>greet</code> function returns a value of type <code>str</code>, so this function call expression also evaluates to a <code>str</code> whose value is <code>"Hello, Campers!"</code>.</p>
@@ -241,15 +246,15 @@
 <p>Why did you need to call <code>print</code> here, but not when using the REPL? If you recall, the REPL is short for “Read-Evaluate-Print-Loop”. The “Print” step is built-in, and automatically “Prints” the evaluation of your expressions, so that you do not need to print the result of an expression yourself. In Trailhead, we highlight this difference and denote the automatically printed expression output in blue. If you switch back to the REPL and try evaluting, <code>print("Hello")</code> and then <code>"Hello"</code> as two separate expressions, you will see the difference. We will talk more about this in class because the distinction is both important and often a conceptual hurdle for new programmers.</p>
 <h2 id="module-documentation-and-attribution">6. Module Documentation and Attribution</h2>
 <p>One other convention in Python, and COMP110, is to add some documentation to the top of your module. Add the following lines of code above the <code>greet</code> function definition in your <code>ex00_hello_world.py</code> file:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true"></a><span class="co">&quot;&quot;&quot;My first exercise in CAMP110!&quot;&quot;&quot;</span></span>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true"></a><span class="co">&quot;&quot;&quot;My first exercise in COMP110!&quot;&quot;&quot;</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true"></a></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true"></a>__author__ <span class="op">=</span> <span class="st">&quot;123456789&quot;</span></span></code></pre></div>
 <p><strong>Be sure to replace <code>123456789</code> with your 9-digit UNC PID!</strong> Also, be sure that you have two underscores surrounding both sides of <code>__author__</code>, not just one.</p>
 <p>Save your module and navigate back to the Trailhead home listing. Notice that your module’s Doc String is elevated to the module’s description to serve as a brief overview of what each module does. Just like doc strings in function definitions, module doc strings in modules are for you and other programmers to read to understand the purpose of a module in English. The <code>__author__</code> line establishes a special variable, which we will learn more about soon, that attributes your work to you.</p>
 <h2 id="submitting-your-work">6. Submitting Your Work</h2>
 <p>Now, let’s get your work submitted to the autograder! In VSCode, open a new integrated Terminal with `Ctrl+Shift+``, or going to the Terminal menu and selecting “New Terminal”. We will learn more about what the terminal is and gain experience with “command line interfaces” later in the course. For now, enter the following command into the terminal and press enter:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true"></a><span class="ex">python</span> -m tools.submission ex00_hello_world.py</span></code></pre></div>
-<p>You will notice a file appeared in your workspace named <code>24.01.dd-hh.mm.ss-ex00_hello_world.py.zip</code>. You will see numbers for the current day of the month in place of <code>dd</code>, 24-hour digits in place of <code>hh</code>, minutes in place of <code>mm</code>, and so on. This “zip” file contains your <code>ex00_hello_world.py</code> file and is what you will submit to the autograder.</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true"></a><span class="ex">python</span> -m tools.submission exercises/ex00_hello_world.py</span></code></pre></div>
+<p>You will notice a file appeared in your workspace named <code>25.01.dd-hh.mm.ss-ex00_hello_world.py.zip</code>. You will see numbers for the current day of the month in place of <code>dd</code>, 24-hour digits in place of <code>hh</code>, minutes in place of <code>mm</code>, and so on. This “zip” file contains your <code>ex00_hello_world.py</code> file and is what you will submit to the autograder.</p>
 <p>In Gradescope, open assignment “EX00 - Hello World”. You should see an area to upload a zip file. Click this area and browse to your course’s workspace directory on your computer. You should see the zip file you just created. Select it and upload it to Gradescope. Autograding should complete within about a minute and you should see a score of 100%, or more if you are submitting early. If you see less than 100%, try to understand the feedback and resubmit. If you are still having trouble, please come see us in office hours!</p>
 <h2 id="make-a-backup-checkpoint-commit">7. Make a Backup Checkpoint “Commit”</h2>
 <p>Now that your first program is complete, let’s practice making a backup. Visual Studio Code has built-in support for <code>git</code> Source Control. Source Control tools are made to help create versioned checkpoints of a project’s source code (your program is source code!) amont other uses. The current de facto Source Control system is called <code>git</code>. As one more piece of terminology, a checkpointed version in git is called a <code>commit</code>. Once your work is in a <code>commit</code> checkpoint, you can always return back to your project at that point in time without the risk of losing work. We encourage committing work to backup <em>at least</em> each time you submit a project for grading or are finishing out a working session for the day. Commits are free to make and can only help you avoid losing work; use them liberally!</p>
@@ -266,17 +271,19 @@
 </ol>
 <p>To see your commit on Github, in a web browser, navigate to <code>https://github.com/</code> and open your COMP110 course repository. You should see your work in <code>ex0_hello_world.py</code> backed up to GitHub. Notice above the file’s content’s you’ll see your commit message.</p>
 <h2 id="congratulations">8. Congratulations!</h2>
-<div class="owl-talk">
+<!-- <div class="owl-talk">
 <figure>
-<img src="/static/camp110/cozy-owl.png" title="fig:" alt="Owl Talk" />
+![Owl Talk](/static/camp110/cozy-owl.png)
 </figure>
 <div class="message">
-<p>Hi, I’m <strong>Owlivia the Observant</strong>!</p>
-<p>I’m here to help you think about the big picture of what you are learning. I’ll be popping up throughout the course as a reminder to zoom out and see how the details you are learning fit together into big ideas and important <em>abstractions</em>.</p>
-<p>It is important to take a step back and see the forest for the trees. Connecting how the pieces fit together will help you achieve great things!</p>
+Hi, I'm **Owlivia the Observant**!
+
+I'm here to help you think about the big picture of what you are learning. I'll be popping up throughout the course as a reminder to zoom out and see how the details you are learning fit together into big ideas and important _abstractions_.
+
+It is important to take a step back and see the forest for the trees. Connecting how the pieces fit together will help you achieve great things!
 </div>
-</div>
-<p>HOO! You have completed your first exercise in the course! Most exercises will require you to write functions on your own, but as we are getting started we wanted to guide you through each of these steps with narrative so that you could learn some important fundaments.</p>
+</div> -->
+<p>Woo! You have completed your first exercise in the course! Most exercises will require you to write functions on your own, but as we are getting started we wanted to guide you through each of these steps with narrative so that you could learn some important fundaments.</p>
 <p>In this exercise, you experienced many big ideas you will encounter frequently in the trails ahead:</p>
 <ul>
 <li>Defining a Function with a single parameter, return type, doc string, and return statement</li>

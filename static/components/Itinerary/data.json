@@ -8,7 +8,7 @@
             "deadline": "2025-01-08",
             "links": {
                 "Slides": "/static/slides/CL00_FDOC.pdf",
-                "Recording": "https://youtu.be/0Fq4szYQOJg"
+                "Lecture Recording": "https://youtu.be/0Fq4szYQOJg"
             }
         },
         {
@@ -46,7 +46,7 @@
             "deadline": "2025-01-10",
             "links": {
                 "Slides": "/",
-                "Recording": "/"
+                "Lecture Recording": "/"
             }
         },
         {
@@ -57,6 +57,16 @@
             "deadline": "2025-01-10",
             "links": {
                 "Complete Lesson 02 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 0,
+            "title": "Hello World (Due Wednesday 1/15)",
+            "date": "2025-01-10",
+            "deadline": "2025-01-15",
+            "links": {
+                "": "/exercises/ex00_hello_world.html"
             }
         }
     ],

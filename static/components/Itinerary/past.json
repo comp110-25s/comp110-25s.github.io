@@ -8,7 +8,7 @@
             "deadline": "2025-01-08",
             "links": {
                 "Slides": "/static/slides/CL00_FDOC.pdf",
-                "Recording": "https://youtu.be/0Fq4szYQOJg"
+                "Lecture Recording": "https://youtu.be/0Fq4szYQOJg"
             }
         },
         {
@@ -35,5 +35,6 @@
                 "4. Complete the LS01 Responses on Gradescope": "https://www.gradescope.com/"
             }
         }
-    ]
+    ],
+    "2025-01-09": []
 }
