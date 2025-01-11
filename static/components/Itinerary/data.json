@@ -33,7 +33,8 @@
             "deadline": "2025-01-10",
             "links": {
                 "Slides": "/static/slides/CL01_Objects_n_Types.pdf",
-                "Lecture Recording": "/"
+                "Lecture Recording": "https://youtu.be/0fFOz0aNhxo?feature=shared",
+                "Optional Reading": "/lessons/objects-data-types.html"
             }
         },
         {
@@ -90,7 +91,9 @@
             "title": "Quiz 0",
             "date": "2025-01-24",
             "deadline": "2025-01-24",
-            "links": {}
+            "links": {
+                "Read Quiz Expectations": "/resources/quiz-expectations.html"
+            }
         }
     ],
     "2025-01-25": [],

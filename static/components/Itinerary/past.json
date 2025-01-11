@@ -23,5 +23,52 @@
             }
         }
     ],
-    "2025-01-09": []
+    "2025-01-09": [],
+    "2025-01-10": [
+        {
+            "kind": "CL",
+            "n": 1,
+            "title": "Objects and Data Types",
+            "date": "2025-01-10",
+            "deadline": "2025-01-10",
+            "links": {
+                "Slides": "/static/slides/CL01_Objects_n_Types.pdf",
+                "Lecture Recording": "https://youtu.be/0fFOz0aNhxo?feature=shared",
+                "Optional Reading": "/lessons/objects-data-types.html"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 1,
+            "title": "Software Setup",
+            "date": "2025-01-10",
+            "deadline": "2025-01-10",
+            "links": {
+                "1. OS Update": "/resources/setup/os-update.html",
+                "2. Docker, git, VS Code": "/resources/setup/software.html",
+                "3. COMP110 Workspace": "/resources/setup/workspace.html",
+                "4. Complete the LS01 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 2,
+            "title": "Objects and Data Types",
+            "date": "2025-01-10",
+            "deadline": "2025-01-10",
+            "links": {
+                "Complete Lesson 02 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 0,
+            "title": "Hello, World! (Due Wednesday 1/15)",
+            "date": "2025-01-10",
+            "deadline": "2025-01-15",
+            "links": {
+                "": "/exercises/ex00_hello_world.html"
+            }
+        }
+    ]
 }
