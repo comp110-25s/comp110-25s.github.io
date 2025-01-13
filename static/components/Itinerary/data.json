@@ -73,7 +73,29 @@
     ],
     "2025-01-11": [],
     "2025-01-12": [],
-    "2025-01-13": [],
+    "2025-01-13": [
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Expressions",
+            "date": "2025-01-13",
+            "deadline": "2025-01-13",
+            "links": {
+                "Slides": "/",
+                "Optional Reading": "/lessons/expressions.html"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 3,
+            "title": "Expressions",
+            "date": "2025-01-13",
+            "deadline": "2025-01-13",
+            "links": {
+                "Complete Lesson 03 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2025-01-14": [],
     "2025-01-15": [],
     "2025-01-16": [],

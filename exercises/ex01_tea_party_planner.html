@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1736635562.4401872">
+  <link rel="stylesheet" href="/static/styles.css?v=1736732054.8740165">
 </head>
 
 
@@ -111,7 +111,7 @@
                 </div>
             </div>
         </div>
-        <div id="content" class="content box col-xl-9 col-lg-9 order-2 order-lg-1 pt-3"><p><img src="/static/exercises/ex01/banner.png" /></p>
+        <div id="content" class="content box col-xl-9 col-lg-9 order-2 order-lg-1 pt-3"><!-- ![](/static/exercises/ex01/banner.png) -->
 <h2 id="overview">Overview</h2>
 <p>In this exercise, you will write a program to help you plan a cozy tea party. The program will ultimately ask the user for the number of guests and you will calculate the quantity of tea bags needed, the number of treats to accompany the tea, and the expected cost of the party.</p>
 <p>Here’s an example of using the program if you imagine we are trying to throw a giant tea party for you and 333 of your friends:</p>
@@ -130,11 +130,10 @@
 <p><strong>Students with prior programming experience: please note that in this exercise you should limit yourself to making use of only the concepts we have covered in lecture. The autograder has some checks in place to penalize the usage of concepts we have not yet covered. Limiting yourself to only what we have covered is good practice. Anything we have discussed in lecture is permitted.</strong></p>
 <h2 id="getting-started">0. Getting Started</h2>
 <p>Start your COMP110 DevContainer by first being sure Docker Desktop is running, then opening VS Code, then using the File &gt; Open Recent menu to select the “COMP110 Workspace” folder that has <code>[Dev Container]</code> following its the name. This will open a new VS Code window with the DevContainer running. Finally, go to the “Run and Debug” view to press the play button to begin Trailhead. Open Trailhead in a web browser tab and arrange your windows side-by-side. These are the steps we will generally get in the habbit of following as work begins on a project.</p>
-<p>Now, add a directory named <code>exercises</code> to your Workspace: go back to the “File Explorer” tab in VSCode. When you move your mouse over the word “Workspace” you will see the New Folder button (a folder with a plus symbol) appear. Click this button, then name the directory <code>exercises</code>.</p>
-<p>Next, right click on the <code>exercises</code> directory and select “New File”. Name the file <code>ex01_tea_party.py</code>. This is where you will write your program.</p>
-<p>Another good habit to get into is to add a Docstring and <code>__author__</code> attribution line to the tops of your exercise files. Go ahead and add a Docstring for this program to your <code>ex01_tea_party.py</code> file found in the <code>exercises</code> directory. Your Docstring should state the goal of this program, based on the overview above, in one sentence in your own words. Once you save this, you should be able to navigate to the <code>exercises</code> directory in Trailhead, see <code>ex01_tea_party</code> listed, and see the Docstring you added.</p>
+<p>First, right click on the <code>exercises</code> directory in your file explorer and select “New File”. Name the file <code>ex01_tea_party.py</code>. This is where you will write your program. Your file must exist in the <code>exercises</code> folder and <em>exactly</em> match this file name in order for the autograder to run your code.</p>
+<p>One good habit to get into is to add a Docstring and <code>__author__</code> attribution line to the tops of your exercise files. Go ahead and add a Docstring for this program to your <code>ex01_tea_party.py</code> file found in the <code>exercises</code> directory. Your Docstring should state the goal of this program, based on the overview above, in one sentence in your own words. Once you save this, you should be able to navigate to the <code>exercises</code> directory in Trailhead, see <code>ex01_tea_party</code> listed, and see the Docstring you added.</p>
 <p>Add two blank lines below the Docstring, then add the <code>__author__: str = "123456789"</code> line, substituting your UNC PID for the <code>123456789</code> value.</p>
-<p>Looking at the program output above, there are multiple computations that will need to be performed to produce the output. We can decompose the problem into simpler subproblems, such as:</p>
+<p>There are multiple computations that will need to be performed to produce the output above. We can decompose the problem into simpler subproblems, such as:</p>
 <ol type="1">
 <li>A function to compute the number of tea bags needed based on number of guests</li>
 <li>A function to compute the number of treats needed based on the number of teas guests are expecting to drink</li>
@@ -284,7 +283,7 @@
     </div>
     </div>
     <div class="authors-box bg-dark mt-4 py-3 ps-4">
-      <span> Contributor(s): Kris Jordan</span>
+      <span> Contributor(s):        Kris Jordan, Izzi Hinks</span>
     </div>
 
   </div>
