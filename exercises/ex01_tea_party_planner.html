@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1736732054.8740165">
+  <link rel="stylesheet" href="/static/styles.css?v=1736732437.876587">
 </head>
 
 
@@ -179,11 +179,11 @@
 </figure>
 <p>Try a few additional function calls to be sure your function is working as you expect!</p>
 <div class="fox-talk">
-<figure>
-<img src="/static/camp110/cozy-fox.png" title="fig:" alt="Fox Talk" />
-</figure>
+<!-- <figure>
+![Fox Talk](/static/camp110/cozy-fox.png)
+</figure> -->
 <div class="message">
-<p><strong>Fern the Philosophical Fox</strong></p>
+<p><strong>Reflect</strong></p>
 <p>Why do you think we are making use of a call to the <code>tea_bags</code> function when implementing the <code>treats</code> function? Could you imagine implementing <code>treats</code> without calling <code>tea_bags</code>? If so, suppose you later discovered your guests drank 3 teas each instead of 2. How many places in your program would you need to update to account for this change?</p>
 </div>
 </div>
@@ -230,11 +230,11 @@
 <p>After adding these lines to the end of your program, you should now be able to go to the “Run” tab of your program, be prompted for a guests count, and see the output of your program.</p>
 <p>Congrats! You can now plan a cozy tea party with your woodland CAMP110 friends!</p>
 <div class="fox-talk">
-<figure>
-<img src="/static/camp110/cozy-fox.png" title="fig:" alt="Fox Talk" />
-</figure>
+<!-- <figure>
+![Fox Talk](/static/camp110/cozy-fox.png)
+</figure> -->
 <div class="message">
-<p><strong>Fern the Philosophical Fox</strong></p>
+<p><strong>Reflect</strong></p>
 <p>Why do you think you cannot place the lines <code>if __name__ == "__main__":</code> followed by <code>meal_planner(...)</code> at the top of your program? What happens if you try? Hint: Think about the rules of your environment diagram. What rules apply when the call to <code>meal_planner</code> are made? Specifically: what happens when following the Name Resolution rules?</p>
 </div>
 </div>
@@ -242,7 +242,7 @@
 <p>Now is a good time to submit your work to the autograder!</p>
 <p>In VSCode, open a new integrated Terminal with `Ctrl+Shift+``, or going to the Terminal menu and selecting “New Terminal”. We will learn more about what the terminal is and gain experience with “command line interfaces” later in the course. For now, enter the following command into the terminal and press enter:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="ex">python</span> -m tools.submission exercises/ex01_tea_party.py</span></code></pre></div>
-<p>You will notice a file appeared in your workspace named <code>24.mm.dd-hh.mm.ss-ex01_tea_party.py.zip</code>. You will see numbers for the current day of the month in place of <code>dd</code>, 24-hour digits in place of <code>hh</code>, minutes in place of <code>mm</code>, and so on. This “zip” file contains your work and is what you will submit to the autograder.</p>
+<p>You will notice a file appeared in your workspace named <code>25.mm.dd-hh.mm.ss-ex01_tea_party.py.zip</code>. You will see numbers for the current day of the month in place of <code>dd</code>, 24-hour digits in place of <code>hh</code>, minutes in place of <code>mm</code>, and so on. This “zip” file contains your work and is what you will submit to the autograder.</p>
 <p>In Gradescope, open assignment “EX01 - Tea Party Planner”. You should see an area to upload a zip file. Click this area and browse to your course’s workspace directory on your computer. You should see the zip file you just created. Select it and upload it to Gradescope. Autograding should complete within about a minute and you should see a score of 100%, or more if you are submitting early. If you see less than 100%, try to understand the feedback and the points that were taken off and resubmit. If you are still having trouble, please come see us in office hours!</p>
 <h2 id="make-a-backup-checkpoint-commit">7. Make a Backup Checkpoint “Commit”</h2>
 <p>Now that your first program is complete, let’s practice making a backup. Visual Studio Code has built-in support for <code>git</code> Source Control. Source Control tools are made to help create versioned checkpoints of a project’s source code (your program is source code!) amont other uses. The current de facto Source Control system is called <code>git</code>. As one more piece of terminology, a checkpointed version in git is called a <code>commit</code>. Once your work is in a <code>commit</code> checkpoint, you can always return back to your project at that point in time without the risk of losing work. We encourage committing work to backup <em>at least</em> each time you submit a project for grading or are finishing out a working session for the day. Commits are free to make and can only help you avoid losing work; use them liberally!</p>
@@ -260,12 +260,12 @@
 <p>To see your commit on Github, in a web browser, navigate to <code>https://github.com/</code> and open your COMP110 course repository. You should see your work in <code>ex01_tea_party.py</code> backed up to GitHub. Notice above the file’s content’s you’ll see your commit message.</p>
 <h2 id="congratulations">8. Congratulations!</h2>
 <div class="owl-talk">
-<figure>
-<img src="/static/camp110/cozy-owl.png" title="fig:" alt="Owl Talk" />
-</figure>
+<!-- <figure>
+![Owl Talk](/static/camp110/cozy-owl.png)
+</figure> -->
 <div class="message">
-<p>Hi, I’m <strong>Owlivia the Observant</strong>!</p>
-<p>HOO! You have completed your first <em>real</em> exercise in the course! In this exercise, you experienced many big ideas you will encounter frequently on the trails ahead:</p>
+<!-- Hi, I'm **Owlivia the Observant**! -->
+<p>Woohoo! You have completed your first code-writing exercise in the course! In this exercise, you experienced many big ideas you will encounter frequently on the trails ahead:</p>
 <ul>
 <li>Defining a Function with a one <em>or more</em> parameters, return type, doc string, and return statement</li>
 <li>Defining a function and testing it in the REPL</li>
