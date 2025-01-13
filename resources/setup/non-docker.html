@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Olivia Wen - COMP110 - 25S</title>
+  <title> Non-Docker Setup Instructions - COMP110 - 25S</title>
   <link rel="icon" type="image/png" href="/static/s25_brand.png" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1736795570.0152054">
+  <link rel="stylesheet" href="/static/styles.css?v=1736795564.885706">
 </head>
 
 
@@ -76,44 +76,47 @@
 
   <div class="cloud-container">
     <div id="cloud-intro">
-  <div id="profile-page" class="container">
+  <div id="resource-page" class="container">
     <div class="row pt-4">
       <div class="col-12">
-        <h1>Olivia Wen</h1>
+        <h1>Non-Docker Setup Instructions</h1>
       </div>
     </div>
     
 
-    <div class="container box">
-        <div class="row"><div class="col">
-                <div class="content"><figure>
-<img src="../../static/profile-photos/oliviaw7.png" alt="" /><figcaption>profile-photo</figcaption>
-</figure>
-<h2 id="pronouns">Pronouns</h2>
-<p>she/her/hers</p>
-<p></div>
-            </div><div class="col">
-                <div class="content"></p>
-<h2 id="hometown">Hometown</h2>
-<p>Weston, CT</p>
-<h2 id="unc-status">UNC Status</h2>
-<p>Class of 2024</p>
-<h2 id="major">Major</h2>
-<p>Computer Science &amp; Biology</p>
-<p></div>
-            </div><div class="col">
-                <div class="content"></p>
-<h2 id="interests">Interests</h2>
-<p>drawing, painting, tennis, hiking, running</p>
-<h2 id="non-academic-fun-fact">Non-academic fun fact</h2>
-<p>I have a twin sister!</p>
+    <script src="/static/scripts/toggle-handler.js"></script>
+    
+    <div class="row px-4">
+        <div id="box" class="toc col-xl-3 col-lg-3 order-1 order-lg-2" role="doc-toc">
+            <div>
+                <div id="menu-overview" class="link-page-overview horizon-box">
+                    <button id="overview-button" class="btn btn-ov" onclick="hideshow()" >Overview  <img id="button-img" alt="Overview" class="filter-icon" src="/static/components/Itinerary/arrow-up.svg" style="height:15px; padding-left: 4px;"></button>
+                    <div id="overview-links">
+                        <div id="TOC" role="doc-toc">
+                            <ul class="overview-item"><ul>
+<li><a href="#when-software-setup-or-computers-fail">When Software Setup or Computers Fail…</a></li>
+</ul>
+</</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content" class="content box col-xl-9 col-lg-9 order-2 order-lg-1 pt-3"><h2 id="when-software-setup-or-computers-fail">When Software Setup or Computers Fail…</h2>
+<p>If you have tried setting up your workspace using docker, and are having issues (or if you just want to be able to use your workspace without docker), there are two options!</p>
+<ol type="1">
+<li><p>You can run everything you need in your web browser via Github Codespaces! The instructions to that can be found <a href="/resources/setup/codespaces.html">here</a>.</p></li>
+<li><p>You can set up a workspace on your computer that doesn’t use docker. (Unfortunately, this means you will not be able to use the trailhead.) The instructions to that can be found <a href="/resources/setup/non-docker-setup.html">here</a>.</p></li>
+</ol>
 </div>
-            </div></div>
-    </div>
+
+       
+
+    </div> 
     </div>
     </div>
     <div class="authors-box bg-dark mt-4 py-3 ps-4">
-      <span> Contributor(s): Olivia Wen</span>
+      <span> Contributor(s): Alyssa Lytle</span>
     </div>
 
   </div>

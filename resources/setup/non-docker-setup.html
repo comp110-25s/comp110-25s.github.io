@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Workspace Setup Without Docker - COMP110 - 25S</title>
+  <link rel="icon" type="image/png" href="/static/s25_brand.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/static/styles.css?v=1736795564.5740173">
+</head>
+
+
+<body id="body" class="absolute-page">
+    <script>
+        document.body.classList.remove('light-mode');
+        document.body.classList.remove('dark-mode');
+        document.body.classList.add(localStorage.getItem('mode'));
+    </script>
+  <script src="/static/scripts/nav-menu-esc.js"></script> 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark py-1 fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/"><img class="lightmode-element-only img-fluid logo" src="/static/s25_brand.png"
+        alt="COMP110 - Spring - 2025"><img class="darkmode-element-only img-fluid logo" src="/static/s25_brand.png"
+        alt="COMP110 - Spring - 2025"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" onclick="esc_key()" data-bs-target="#navmenu" aria-label="Main Menu" aria-controls="#navmenu" role="navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="/">agenda</a>
+          </li>
+          <li class="nav-item">
+            <a href="/resources" class="nav-link">resources</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="/support" class="nav-link">support</a>
+          </li>
+         
+          <li class="nav-item">
+            <a href="/resources/syllabus.html" class="nav-link">syllabus</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="/resources/team.html" class="nav-link">team110</a>
+          </li>
+         
+        </ul>
+      </div>
+      <div id='mode-switch' class="ms-auto form-check form-switch mode switches">
+              <div class="switches">
+                  <input type="checkbox" id="1" onclick="
+                      if (localStorage.getItem('mode') === 'dark-mode') {
+                          localStorage.setItem('userPref', 'light-mode');
+                          localStorage.setItem('mode', 'light-mode');
+                      } else {
+                          localStorage.setItem('userPref', 'dark-mode');
+                          localStorage.setItem('mode', 'dark-mode');
+                      }
+                      location.reload();">
+                  <label for="1">
+                      <span id="mode-label">Dark Mode</span>
+                      <span></span>
+                  </label>
+                  <script>if(localStorage.getItem('mode') === 'dark-mode'){document.getElementById("1").checked = true}</script>
+                  <script>if(localStorage.getItem('userPref') === null) {setTimeout(function(){location.reload();}, (timer * 3600000));}</script>
+              </div>
+          </div>
+    </div>
+  </nav>
+
+  <div class="cloud-container">
+    <div id="cloud-intro">
+  <div id="resource-page" class="container">
+    <div class="row pt-4">
+      <div class="col-12">
+        <h1>Workspace Setup Without Docker</h1>
+      </div>
+    </div>
+    
+
+    <script src="/static/scripts/toggle-handler.js"></script>
+    
+    <div class="row px-4">
+        <div id="box" class="toc col-xl-3 col-lg-3 order-1 order-lg-2" role="doc-toc">
+            <div>
+                <div id="menu-overview" class="link-page-overview horizon-box">
+                    <button id="overview-button" class="btn btn-ov" onclick="hideshow()" >Overview  <img id="button-img" alt="Overview" class="filter-icon" src="/static/components/Itinerary/arrow-up.svg" style="height:15px; padding-left: 4px;"></button>
+                    <div id="overview-links">
+                        <div id="TOC" role="doc-toc">
+                            <ul class="overview-item"><ul>
+<li><a href="#part-0.-checking-for-python-install">Part 0. Checking for Python Install</a></li>
+<li><a href="#part-1.-installing-python">Part 1. Installing Python</a>
+<ul>
+<li><a href="#windows-10-and-11-instructions">Windows 10 and 11 Instructions</a></li>
+<li><a href="#macos-instructions">macOS Instructions</a>
+<ul>
+<li><a href="#update-your-default-shell-in-the-terminal">0. Update Your Default Shell in the Terminal</a></li>
+<li><a href="#install-or-update-the-python-programming-language-toolkit-3.11.1-or-greater">1. Install (or Update) the Python Programming Language Toolkit (3.11.1 or greater)</a></li>
+<li><a href="#configure-your-shell-to-use-the-latest-python">2. Configure your Shell to use the Latest Python</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#part-2.-install-requirements.">Part 2. Install requirements.</a>
+<ul>
+<li><a href="#pulling-course-materials-down-from-upstream.">“Pulling” course materials down from Upstream.</a>
+<ul>
+<li><a href="#common-errorssolutions">Common errors/solutions:</a></li>
+</ul></li>
+<li><a href="#install-requirements">Install requirements</a></li>
+</ul></li>
+</ul>
+</</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content" class="content box col-xl-9 col-lg-9 order-2 order-lg-1 pt-3"><h1 id="part-0.-checking-for-python-install">Part 0. Checking for Python Install</h1>
+<p>To get your workspace working without using the Docker Dev Container, you first want to see if python is installed on your computer.</p>
+<ol start="0" type="1">
+<li><p>Open your terminal and type <code>python --version</code>. If you see something like <code>Python 3.11.1</code> (or greater), congratulations! You already have Python installed. You can skip the rest of these steps and continue to <a href="#part-2-install-requirements">Part 2</a>.</p></li>
+<li><p>If you get an error, try typing <code>python3 --version</code>.</p></li>
+</ol>
+<p>If you get an error message, skip the rest of this step and continue to <a href="#part-1-installing-python">Part 1</a>.</p>
+<p><em>If</em> you see something like <code>Python 3.11.1</code> (or greater), then you have the correct version installed and just need to update your terminal command so that the <code>python</code> command works! Type the following command in your terminal exactly:</p>
+<pre><code>sudo ln -s &quot;$(which python3)&quot; &quot;$(dirname $(which python3))/python&quot;</code></pre>
+<p>It may prompt you for your computer password. This change will only take place in a new shell session. Type the exit command, press enter, close your terminal. Retry the command <code>python --version</code> to check it is successfully linked to Python 3.11.1 or greater. You can now skip Part 1 and continue to <a href="#part-2-install-requirements">Part 2</a>!</p>
+<h1 id="part-1.-installing-python">Part 1. Installing Python</h1>
+<h2 id="windows-10-and-11-instructions">Windows 10 and 11 Instructions</h2>
+<p>For these steps, be sure your web browser Window is maximized and be sure to follow step 4.0 closely that <strong>checks</strong> the option “Add Python 3.11.1 to Path” during install.</p>
+<ol start="0" type="1">
+<li>Open the <strong>Python Website</strong> in another tab: <a href="https://www.python.org" target="_blank">https://www.python.org</a></li>
+<li>Press the <strong>Downloads</strong> button in navigation.</li>
+<li>In the headline, you should see <strong>“Download the latest version for Windows”</strong>.
+<ul>
+<li>If, instead, you see “Download the latest version of Python” be sure your browser Window is maximized and refresh the web page.</li>
+</ul></li>
+<li>Press the <strong>Download Python 3.11.4</strong> button. The download should begin.
+<ul>
+<li>If you are taken to another page without a download beginning, scroll down to the <strong>Files</strong> heading and select the file named <code>Windows x86 executable installer</code>.**</li>
+</ul></li>
+<li>Open the download once it completes and <strong>carefully</strong> follow the instructions below, <em>especially the first one</em>:
+<ol start="0" type="1">
+<li><strong>IMPORTANT: Check the box on the first screen labelled “Add Python 3.11.4 to PATH”</strong>
+<ul>
+<li>If you do not see this option, you likely have an older version of Python already installed. Go ahead and uninstall the old version and then retry installing the new version.</li>
+<li>Knowing exactly what this does is beyond your concern, but the gist is it makes it easier for other programs on your system to make use of Python.</li>
+</ul></li>
+<li>After checking the box of Step 0, click Install Now.</li>
+<li>Allow the installer to make changes if further prompted.</li>
+<li>Accept other defaults on following screens.</li>
+<li>Click the Close button to complete the Install.</li>
+</ol></li>
+</ol>
+<h2 id="macos-instructions">macOS Instructions</h2>
+<p>Before beginning, be sure you are using the latest version of <a href="/resources/setup/os-update.html#macos">macOS</a>.</p>
+<h3 id="update-your-default-shell-in-the-terminal">0. Update Your Default Shell in the Terminal</h3>
+<p>There are two pieces of <em>jargon</em> in the title of this section. A “shell” is a program that serves as a concierge to your computer: you give it commands, such as asking it to run a program you’re working on, and the shell does the work of carrying out your command. A “terminal” is the program you will use to interact with your shell. Apple recently updated its recommended shell software to Z-shell, or <code>zsh</code>, so let’s be sure yours is configured to use it.</p>
+<ol start="0" type="1">
+<li>Using Mac’s Spotlight Search, accessed by pressing <code>Command + Spacebar</code> or clicking the search icon near your clock, type <code>Terminal</code> and press enter. This starts the Terminal app, which may look like what hackers use in the movies, <em>because it is</em>.</li>
+<li>Let’s learn what shell program your terminal is using by default by typing the following (cryptic, based on what we know now) command and pressing enter: <code>echo $SHELL</code> (yes, that’s the word <code>echo</code>, followed by a space, and then a dollar sign followed immediately by the word SHELL in all capital letters, <code>$SHELL</code>)</li>
+<li>If you see <code>/bin/bash</code> in the text “printed” below your command, continue to next step to update your default. If, instead, you see <code>/bin/zsh</code>, you are all set and can jump to step 6.</li>
+<li>Since you saw <code>bash</code> instead of <code>zsh</code>, let’s <code>ch</code>ange your default <code>sh</code>ell using the <code>chsh</code> program to be the location, or path, of the <code>zsh</code> shell program on your computer which is <code>/bin/zsh</code>. Type the following command, check that yours matches exactly, in both spaces and capitalization, and press enter: <code>chsh -s /bin/zsh</code></li>
+<li>You will likely be asked for your computer’s password. When you type in your password you will not see any text appear on your screen, not even dots, but the keys you type are being received. Press enter once you’ve entered your password. If you see “Credentials could not be verified, username or password is invalid.” try running the command again and entering your laptop’s password again.</li>
+<li>This change will be applied to your next shell session, so type <code>exit</code>, close your <code>Terminal</code> again. Go back up to step 0, and continue from there, to confirm it was successful.</li>
+<li>Great! You can quit your shell session by typing <code>exit</code>, pressing enter, and then closing your <code>Terminal</code> window.</li>
+</ol>
+<h3 id="install-or-update-the-python-programming-language-toolkit-3.11.1-or-greater">1. Install (or Update) the Python Programming Language Toolkit (3.11.1 or greater)</h3>
+<p>For these steps, be sure your Web Browser window is maximized.</p>
+<ol start="0" type="1">
+<li>Open the <strong>Python Website</strong> in a new tab: <a href="https://www.python.org" target="_blank">https://www.python.org</a></li>
+<li>Select the <strong>Downloads</strong> button in the navigation</li>
+<li>Look for the <strong>“Download latest version for Mac OS X”</strong>
+<ul>
+<li>If you instead see, “Download the latest version of Python”, make sure your browser is full screen and refresh the page.</li>
+</ul></li>
+<li>Click the <strong>Download Python 3.11.4</strong> button. Your download should begin.
+<ul>
+<li>If you are brought to another page, scroll down to the Files section and select the <code>macOS 64-bit universal2 installer</code>.</li>
+</ul></li>
+<li>Open the downloaded package to begin the installer
+<ol start="0" type="1">
+<li>At Introduction screen: Continue</li>
+<li>At the Read Me screen: Continue</li>
+<li>At the License: Continue (Agree)</li>
+<li>At Installation Type: Install</li>
+<li>After Install completes, select Close and close any windows it popped up.</li>
+<li>If asked, move the installer to Trash</li>
+</ol></li>
+</ol>
+<h3 id="configure-your-shell-to-use-the-latest-python">2. Configure your Shell to use the Latest Python</h3>
+<ol start="0" type="1">
+<li>Open a new Terminal window. If you still have one open from section 0, close it out and start a new one, because changes made during the installation of Python will not take effect until a new shell session begins.</li>
+<li>Give the command <code>python3 --version</code>, notice the <code>3</code> after the word <code>python</code> and two dashes at the front of <code>--version</code>, and press enter. You should see <code>Python 3.11.1</code> (or greater) which indicates your install was successful. If not, try the steps above one more time and restart your computer before trying these. Otherwise, come work with us in office hours!</li>
+<li>Now try giving the command <code>python --version</code>, without the <code>3</code> from above. If you see <code>Python 2.X.YY</code>, where <code>X</code> and <code>YY</code> are irrelevant numbers, continue to the next step because Mac also includes a much older version of Python. This is confusing when you’re trying to learn modern Python! If you see <code>Python 3.X.YY</code>, but not <code>Python 3.11.1</code> or greater, this means you previously installed an older version of Python3, and you should also continue to step 3. If you see the result <code>Python 3.11.x</code> then you are all set and can continue to the next section on installing VSCode.</li>
+<li>Let’s simplify life by making <code>python</code> refer to the latest version you just installed, not the old one. What the following command is doing is making a link between the name <code>python</code> and the version you just installed. The command is more advanced than where we are at, so do not worry yourself on its details. You should copy and paste the following command into your Terminal, and press enter, because the punctuation symbols need to match precisely.</li>
+</ol>
+<p><code>sudo ln -s "$(which python3)" "$(dirname $(which python3))/python"</code></p>
+<p>If you are prompted for a password, enter your computer’s password. You will not see any indication of your keystrokes show up as you type in your password, but they are being recorded. Press enter after typing your password invisibly. 4. 4. This change will only take place in a new shell session. Type the <code>exit</code> command, press enter, close your terminal. <strong>Go back to Step 0</strong> and continue on until confirming <code>python --version</code> is successfully linked to <code>Python 3.11.1</code> or greater.</p>
+<h1 id="part-2.-install-requirements.">Part 2. Install requirements.</h1>
+<p>First, you’re going to want to <em>pull</em> the latest version of the course workspace from github.</p>
+<h2 id="pulling-course-materials-down-from-upstream.">“Pulling” course materials down from Upstream.</h2>
+<p><strong>MAKE SURE YOU PUSH YOUR LOCAL CHANGES BEFORE DOING THIS!!!</strong>s</p>
+<ol start="0" type="1">
+<li><p>Open the View menu and select Command Palette</p>
+<ul>
+<li>The shortcut for this menu is:</li>
+<li>Windows: Control+Shift+P</li>
+<li>Mac: Command+Shift+P</li>
+</ul></li>
+<li><p>Begin typing in Git: Pull From… and press Enter once it is the first option.</p></li>
+<li><p>Begin typing in <code>origin</code> and press Enter once it is the first option.</p></li>
+<li><p>Press enter with <code>origin/main</code> as the first option.</p></li>
+<li><p>This downloads the latest course materials! It will succeed silently, so if nothing appears to happen, check to confirm that the “requirements.txt” file showed up in your workspace files. If there was an error, you would see an error message pop up.</p></li>
+</ol>
+<h3 id="common-errorssolutions">Common errors/solutions:</h3>
+<ul>
+<li>Make sure you PUSHED all of your changes to backup first!!!</li>
+<li>In your terminal, type git config pull.rebase false</li>
+<li>In your Visual Studio command center, select Pull From… -&gt; Upstream -&gt; Upstream/Head. (If not an option, do Origin -&gt; Main.)</li>
+</ul>
+<p>If you’re still having issues, come to office hours!</p>
+<h2 id="install-requirements">Install requirements</h2>
+<p>You can install the workspace requirements using the following command in your terminal:</p>
+<pre><code>python -m pip install -r requirements.txt</code></pre>
+<p>Congratulations! You should be good to go!</p>
+</div>
+
+       
+
+    </div> 
+    </div>
+    </div>
+    <div class="authors-box bg-dark mt-4 py-3 ps-4">
+      <span> Contributor(s): Alyssa Lytle</span>
+    </div>
+
+  </div>
+  <div class='link-page mt-3 container'>
+    <footer>
+      <h3 class="text-center align-middle footer-text">&copy; 2025 <a href="https://krisjordan.com">Kris Jordan</a>
+        - <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSenaJ2uZ_n2FfAb2PWL6YPG4AUT-G2-xVJP6HIwMr6cd6nSYA/viewform?usp=sf_link">Feedback
+          Form</a>
+        - Made with 💛 in <a href="https://cs.unc.edu/">Chapel Hill</a></h3>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <!-- Code Block Formatting -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  
+</body>
+
+</html>
