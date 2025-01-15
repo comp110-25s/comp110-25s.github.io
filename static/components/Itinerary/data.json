@@ -146,7 +146,9 @@
             "date": "2025-01-24",
             "deadline": "2025-01-24",
             "links": {
-                "Read Quiz Expectations": "/resources/quiz-expectations.html"
+                "Read Quiz Expectations": "/resources/quiz-expectations.html",
+                "Practice Quiz": "/static/practice/comp110-s25-qz00-practice.pdf",
+                "Practice Quiz Key": "site/static/practice/comp110-s25-qz00-practice-key.pdf"
             }
         }
     ],
