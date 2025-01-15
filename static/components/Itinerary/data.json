@@ -63,9 +63,9 @@
         {
             "kind": "EX",
             "n": 0,
-            "title": "Hello, World! (Due Wednesday 1/15)",
+            "title": "Hello, World! (Due Thursday 1/16)",
             "date": "2025-01-10",
-            "deadline": "2025-01-15",
+            "deadline": "2025-01-16",
             "links": {
                 "": "/exercises/ex00_hello_world.html"
             }
@@ -82,6 +82,7 @@
             "deadline": "2025-01-13",
             "links": {
                 "Slides": "/static/slides/CL02_Expressions.pdf",
+                "Lecture Recording": "https://youtu.be/ITP_DFs2jlk",
                 "Optional Reading": "/lessons/expressions.html"
             }
         },
@@ -97,7 +98,38 @@
         }
     ],
     "2025-01-14": [],
-    "2025-01-15": [],
+    "2025-01-15": [
+        {
+            "kind": "CL",
+            "n": 3,
+            "title": "Intro to Functions",
+            "date": "2025-01-15",
+            "deadline": "2025-01-15",
+            "links": {
+                "Slides": "/static/slides/CL03_fns.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 4,
+            "title": "Introducing Functions",
+            "date": "2025-01-15",
+            "deadline": "2025-01-15",
+            "links": {
+                "Complete Lesson 04 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 5,
+            "title": "Function Syntax",
+            "date": "2025-01-15",
+            "deadline": "2025-01-15",
+            "links": {
+                "Complete Lesson 05 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2025-01-16": [],
     "2025-01-17": [],
     "2025-01-18": [],

@@ -63,13 +63,39 @@
         {
             "kind": "EX",
             "n": 0,
-            "title": "Hello, World! (Due Wednesday 1/15)",
+            "title": "Hello, World! (Due Thursday 1/16)",
             "date": "2025-01-10",
-            "deadline": "2025-01-15",
+            "deadline": "2025-01-16",
             "links": {
                 "": "/exercises/ex00_hello_world.html"
             }
         }
     ],
-    "2025-01-11": []
+    "2025-01-11": [],
+    "2025-01-12": [],
+    "2025-01-13": [
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Expressions",
+            "date": "2025-01-13",
+            "deadline": "2025-01-13",
+            "links": {
+                "Slides": "/static/slides/CL02_Expressions.pdf",
+                "Lecture Recording": "https://youtu.be/ITP_DFs2jlk",
+                "Optional Reading": "/lessons/expressions.html"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 3,
+            "title": "Expressions",
+            "date": "2025-01-13",
+            "deadline": "2025-01-13",
+            "links": {
+                "Complete Lesson 03 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2025-01-14": []
 }
