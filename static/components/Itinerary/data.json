@@ -148,7 +148,7 @@
             "links": {
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
                 "Practice Quiz": "/static/practice/comp110-s25-qz00-practice.pdf",
-                "Practice Quiz Key": "site/static/practice/comp110-s25-qz00-practice-key.pdf"
+                "Practice Quiz Key": "/static/practice/comp110-s25-qz00-practice-key.pdf"
             }
         }
     ],
