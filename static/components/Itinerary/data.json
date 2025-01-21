@@ -169,7 +169,29 @@
     "2025-01-19": [],
     "2025-01-20": [],
     "2025-01-21": [],
-    "2025-01-22": [],
+    "2025-01-22": [
+        {
+            "kind": "CL",
+            "n": 5,
+            "title": "Practice with Memory Diagrams",
+            "date": "2025-01-22",
+            "deadline": "2025-01-22",
+            "links": {
+                "Slides": "/",
+                "Memory Diagram Rules": "/static/slides/memory_diagrams_v0.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "Practice with Memory Diagrams",
+            "date": "2025-01-22",
+            "deadline": "2025-01-22",
+            "links": {
+                "": "https://www.gradescope.com"
+            }
+        }
+    ],
     "2025-01-23": [],
     "2025-01-24": [
         {
@@ -180,6 +202,7 @@
             "deadline": "2025-01-24",
             "links": {
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
+                "Review Session: 6:15-7:15pm in Sitterson (SN) 014": "/",
                 "Practice Quiz": "/static/practice/comp110-s25-qz00-practice.pdf",
                 "Practice Quiz Key": "/static/practice/comp110-s25-qz00-practice-key.pdf"
             }

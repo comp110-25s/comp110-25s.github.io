@@ -1,43 +1,28 @@
 {
-    "2025-01-16": [],
-    "2025-01-17": [
+    "2025-01-21": [],
+    "2025-01-22": [
         {
             "kind": "CL",
-            "n": 4,
-            "title": "Practice with Functions and Intro to Memory Diagrams",
-            "date": "2025-01-17",
-            "deadline": "2025-01-17",
+            "n": 5,
+            "title": "Practice with Memory Diagrams",
+            "date": "2025-01-22",
+            "deadline": "2025-01-22",
             "links": {
-                "Slides": "/static/slides/CL04_FunctionsandMemoryDiagrams.pdf",
+                "Slides": "/",
                 "Memory Diagram Rules": "/static/slides/memory_diagrams_v0.pdf"
             }
         },
         {
             "kind": "CQ",
-            "n": 0,
-            "title": "Memory Diagram",
-            "date": "2025-01-17",
-            "deadline": "2025-01-17",
+            "n": 1,
+            "title": "Practice with Memory Diagrams",
+            "date": "2025-01-22",
+            "deadline": "2025-01-22",
             "links": {
                 "": "https://www.gradescope.com"
             }
-        },
-        {
-            "kind": "EX",
-            "n": 1,
-            "title": "Tea Party Planner (Due Tuesday 1/28)",
-            "date": "2025-01-17",
-            "deadline": "2025-01-28",
-            "links": {
-                "": "/exercises/ex01_tea_party_planner.html"
-            }
         }
     ],
-    "2025-01-18": [],
-    "2025-01-19": [],
-    "2025-01-20": [],
-    "2025-01-21": [],
-    "2025-01-22": [],
     "2025-01-23": [],
     "2025-01-24": [
         {
@@ -48,6 +33,7 @@
             "deadline": "2025-01-24",
             "links": {
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
+                "Review Session: 6:15-7:15pm in Sitterson (SN) 014": "/",
                 "Practice Quiz": "/static/practice/comp110-s25-qz00-practice.pdf",
                 "Practice Quiz Key": "/static/practice/comp110-s25-qz00-practice-key.pdf"
             }
