@@ -4,12 +4,12 @@
         {
             "kind": "CL",
             "n": 5,
-            "title": "Practice with Memory Diagrams",
+            "title": "IN-PERSON LECTURE CANCELED; video lecture will be posted here by 12pm!",
             "date": "2025-01-22",
             "deadline": "2025-01-22",
             "links": {
-                "Slides": "/",
-                "Memory Diagram Rules": "/static/slides/memory_diagrams_v0.pdf"
+                "Memory Diagram Rules": "/static/slides/memory_diagrams_v0.pdf",
+                "Review Session: Wednesday, Jan 21 from 6:15-7:15pm in Sitterson (SN) 014": "https://docs.google.com/presentation/d/1qo4Etg6QbAJnVSEScZOKRDfivge9dDKymbQm6HWes7A/edit?usp=sharing"
             }
         },
         {
@@ -33,7 +33,7 @@
             "deadline": "2025-01-24",
             "links": {
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
-                "Review Session: Wednesday, Jan 21 from 6:15-7:15pm in Sitterson (SN) 014": "/",
+                "Review Session: Wednesday, Jan 21 from 6:15-7:15pm in Sitterson (SN) 014 (Slides Attached)": "https://docs.google.com/presentation/d/1qo4Etg6QbAJnVSEScZOKRDfivge9dDKymbQm6HWes7A/edit?usp=sharing",
                 "Practice Quiz": "/static/practice/comp110-s25-qz00-practice.pdf",
                 "Practice Quiz Key": "/static/practice/comp110-s25-qz00-practice-key.pdf"
             }
