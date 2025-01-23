@@ -173,12 +173,12 @@
         {
             "kind": "CL",
             "n": 5,
-            "title": "IN-PERSON LECTURE CANCELED",
+            "title": "Virtual, Asynchronous Lecture (Practice Quiz 0 Solutions)",
             "date": "2025-01-22",
             "deadline": "2025-01-22",
             "links": {
-                "Memory Diagram Rules": "/static/slides/memory_diagrams_v0.pdf",
-                "Link to Virtual Review Session: Wednesday, Jan 21 from 6:15-7:15pm (Passcode: 110110)": "https://unc.zoom.us/j/96260055433?pwd=Dxy4hhhcNG07i0LTnsGI4W4aMzVImS.1"
+                "Recording": "https://youtu.be/bQCSBm-VfLc",
+                "Memory Diagram Rules": "/static/slides/memory_diagrams_v0.pdf"
             }
         }
     ],
@@ -192,7 +192,7 @@
             "deadline": "2025-01-24",
             "links": {
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
-                "Link to Virtual Review Session: Wednesday, Jan 21 from 6:15-7:15pm (Passcode: 110110)": "https://unc.zoom.us/j/96260055433?pwd=Dxy4hhhcNG07i0LTnsGI4W4aMzVImS.1",
+                "Virtual Review Session Slides": "/static/slides/COMP110_Quiz0_ReviewSession.pdf",
                 "Practice Quiz": "/static/practice/comp110-s25-qz00-practice.pdf",
                 "Practice Quiz Key": "/static/practice/comp110-s25-qz00-practice-key.pdf"
             }
