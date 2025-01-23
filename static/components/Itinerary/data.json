@@ -192,9 +192,11 @@
             "deadline": "2025-01-24",
             "links": {
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
-                "Virtual Review Session Slides": "/static/slides/COMP110_Quiz0_ReviewSession.pdf",
+                "Review Session Slides": "/static/slides/Quiz00ReviewSession.pdf",
+                "Review Session Recording": "https://youtu.be/qxBj9zZde98",
                 "Practice Quiz": "/static/practice/comp110-s25-qz00-practice.pdf",
-                "Practice Quiz Key": "/static/practice/comp110-s25-qz00-practice-key.pdf"
+                "Practice Quiz Key": "/static/practice/comp110-s25-qz00-practice-key.pdf",
+                "Practice Quiz Explanations": "https://youtu.be/bQCSBm-VfLc"
             }
         }
     ],
