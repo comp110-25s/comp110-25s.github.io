@@ -3,11 +3,11 @@
         {
             "kind": "CL",
             "n": 6,
-            "title": "Boolean Operators and Conditional Control Flow",
+            "title": "Boolean Operators",
             "date": "2025-01-27",
             "deadline": "2025-01-27",
             "links": {
-                "Slides": "/static/slides/CL06_BooleanOperators.pdf"
+                "Slides": "/static/slides/CL06_BooleanOps.pdf"
             }
         },
         {
@@ -18,16 +18,6 @@
             "deadline": "2025-01-27",
             "links": {
                 "Complete Lesson 06 Responses on Gradescope": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 7,
-            "title": "Conditional Statements",
-            "date": "2025-01-27",
-            "deadline": "2025-01-27",
-            "links": {
-                "Complete Lesson 07 Responses on Gradescope": "https://www.gradescope.com/"
             }
         }
     ],
