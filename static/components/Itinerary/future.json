@@ -1,5 +1,4 @@
 {
-    "2025-01-26": [],
     "2025-01-27": [
         {
             "kind": "CL",
@@ -8,7 +7,7 @@
             "date": "2025-01-27",
             "deadline": "2025-01-27",
             "links": {
-                "Slides": "/"
+                "Slides": "/static/slides/CL06_BooleanOperators.pdf"
             }
         },
         {
