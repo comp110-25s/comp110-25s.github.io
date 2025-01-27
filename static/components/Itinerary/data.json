@@ -202,7 +202,38 @@
     ],
     "2025-01-25": [],
     "2025-01-26": [],
-    "2025-01-27": [],
+    "2025-01-27": [
+        {
+            "kind": "CL",
+            "n": 6,
+            "title": "Boolean Operators and Conditional Control Flow",
+            "date": "2025-01-27",
+            "deadline": "2025-01-27",
+            "links": {
+                "Slides": "/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 6,
+            "title": "Boolean Operators",
+            "date": "2025-01-27",
+            "deadline": "2025-01-27",
+            "links": {
+                "Complete Lesson 06 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 7,
+            "title": "Conditional Statements",
+            "date": "2025-01-27",
+            "deadline": "2025-01-27",
+            "links": {
+                "Complete Lesson 07 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2025-01-28": [],
     "2025-01-29": [],
     "2025-01-30": [],
