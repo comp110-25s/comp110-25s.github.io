@@ -234,7 +234,8 @@
             "date": "2025-01-29",
             "deadline": "2025-01-29",
             "links": {
-                "Slides": "/static/slides/CL07_conditionals.pdf"
+                "Slides": "/static/slides/CL07_ConditionalControlFlow.pdf",
+                "Recording": "https://youtu.be/oRH-2SAsrfs"
             }
         },
         {
