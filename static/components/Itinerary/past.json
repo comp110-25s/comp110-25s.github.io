@@ -259,7 +259,8 @@
             "deadline": "2025-01-31",
             "links": {
                 "Slides": "/static/slides/CL08_PracticeConditionals.pdf",
-                "Recording": "https://youtu.be/1_mlAUUd27w"
+                "Recording": "https://youtu.be/1_mlAUUd27w",
+                "Optional Reading about Unicode and f-Strings": "/lessons/strings.html"
             }
         },
         {
@@ -287,5 +288,6 @@
                 "Recording": "https://youtu.be/l5XcLQvakag"
             }
         }
-    ]
+    ],
+    "2025-02-04": []
 }

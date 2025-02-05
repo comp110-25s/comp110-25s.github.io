@@ -259,7 +259,8 @@
             "deadline": "2025-01-31",
             "links": {
                 "Slides": "/static/slides/CL08_PracticeConditionals.pdf",
-                "Recording": "https://youtu.be/1_mlAUUd27w"
+                "Recording": "https://youtu.be/1_mlAUUd27w",
+                "Optional Reading about Unicode and f-Strings": "/lessons/strings.html"
             }
         },
         {
@@ -289,7 +290,28 @@
         }
     ],
     "2025-02-04": [],
-    "2025-02-05": [],
+    "2025-02-05": [
+        {
+            "kind": "CL",
+            "n": 10,
+            "title": "Recursion, Positional Arguments and Default Parameters",
+            "date": "2025-02-05",
+            "deadline": "2025-02-05",
+            "links": {
+                "Slides": "/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "Introduction to Recursion",
+            "date": "2025-02-05",
+            "deadline": "2025-02-05",
+            "links": {
+                "Complete Lesson 08 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2025-02-06": [],
     "2025-02-07": [],
     "2025-02-08": [],
@@ -305,7 +327,12 @@
             "title": "Quiz 1",
             "date": "2025-02-14",
             "deadline": "2025-02-14",
-            "links": {}
+            "links": {
+                "Read Quiz Expectations": "/resources/quiz-expectations.html",
+                "Memory Diagram Rules": "/static/slides/memory_diagrams_v0.pdf",
+                "Review Session Info Coming Soon!": "/",
+                "Practice Quiz Coming Soon": "/"
+            }
         }
     ],
     "2025-02-15": [],
