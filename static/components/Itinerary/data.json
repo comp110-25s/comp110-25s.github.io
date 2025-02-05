@@ -294,11 +294,12 @@
         {
             "kind": "CL",
             "n": 10,
-            "title": "Recursion, Positional Arguments and Default Parameters",
+            "title": "Recursion and Positional Arguments",
             "date": "2025-02-05",
             "deadline": "2025-02-05",
             "links": {
-                "Slides": "/static/slides/CL10_recursion.pdf"
+                "Slides": "/static/slides/CL10_recursion.pdf",
+                "Recording": "https://youtu.be/8wPoWrUMQoE"
             }
         },
         {
