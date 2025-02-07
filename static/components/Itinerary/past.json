@@ -289,5 +289,28 @@
             }
         }
     ],
-    "2025-02-04": []
+    "2025-02-04": [],
+    "2025-02-05": [
+        {
+            "kind": "CL",
+            "n": 10,
+            "title": "Recursion and Positional Arguments",
+            "date": "2025-02-05",
+            "deadline": "2025-02-05",
+            "links": {
+                "Slides": "/static/slides/CL10_recursion.pdf",
+                "Recording": "https://youtu.be/8wPoWrUMQoE"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "Introduction to Recursion",
+            "date": "2025-02-05",
+            "deadline": "2025-02-05",
+            "links": {
+                "Complete Lesson 08 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ]
 }

@@ -314,7 +314,18 @@
         }
     ],
     "2025-02-06": [],
-    "2025-02-07": [],
+    "2025-02-07": [
+        {
+            "kind": "CL",
+            "n": 11,
+            "title": "Constants, Default Parameters, User Input, and Recursion Practice",
+            "date": "2025-02-07",
+            "deadline": "2025-02-07",
+            "links": {
+                "Slides": "/"
+            }
+        }
+    ],
     "2025-02-08": [],
     "2025-02-09": [],
     "2025-02-10": [],

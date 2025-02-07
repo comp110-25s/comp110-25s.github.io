@@ -1,29 +1,17 @@
 {
-    "2025-02-05": [
+    "2025-02-06": [],
+    "2025-02-07": [
         {
             "kind": "CL",
-            "n": 10,
-            "title": "Recursion and Positional Arguments",
-            "date": "2025-02-05",
-            "deadline": "2025-02-05",
+            "n": 11,
+            "title": "Constants, Default Parameters, User Input, and Recursion Practice",
+            "date": "2025-02-07",
+            "deadline": "2025-02-07",
             "links": {
-                "Slides": "/static/slides/CL10_recursion.pdf",
-                "Recording": "https://youtu.be/8wPoWrUMQoE"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 8,
-            "title": "Introduction to Recursion",
-            "date": "2025-02-05",
-            "deadline": "2025-02-05",
-            "links": {
-                "Complete Lesson 08 Responses on Gradescope": "https://www.gradescope.com/"
+                "Slides": "/"
             }
         }
     ],
-    "2025-02-06": [],
-    "2025-02-07": [],
     "2025-02-08": [],
     "2025-02-09": [],
     "2025-02-10": [],
