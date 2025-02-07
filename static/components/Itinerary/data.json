@@ -299,7 +299,8 @@
             "deadline": "2025-02-05",
             "links": {
                 "Slides": "/static/slides/CL10_recursion.pdf",
-                "Recording": "https://youtu.be/8wPoWrUMQoE"
+                "Recording": "https://youtu.be/8wPoWrUMQoE",
+                "Optional Reading": "/lessons/recursion.html"
             }
         },
         {

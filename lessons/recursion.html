@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1738894028.5433595">
+  <link rel="stylesheet" href="/static/styles.css?v=1738899232.1434827">
 </head>
 
 
@@ -112,7 +112,7 @@
 <p>Recursion is a fundamental concept in programming in which a function to call itself to solve a problem. This approach is useful when solving problems that can be broken down into smaller subproblems of the same type. A special case of recursion, called mutual recursion, occurs when two or more functions call each other in a cyclical manner.</p>
 <p>Let’s start with a recursive implementation of factorial:</p>
 <h3 id="example-factorial">Example: Factorial</h3>
-<p>Recall that a factorial, represented by an exclamation mark (!), is a mathematical function in which you multiply a given integer by every positive integer below it. To calculate the factorial of an int, <code>n</code>, we would multiply <code>n</code> by <code>(n-1)</code>, then <code>(n-2)</code>, and so on, until we reach 1. For instance, to calculate <code>5!</code>, we would do: <code>5 * 4 * 3 * 2 * 1</code>, which would evaluate to <code>120</code>.</p>
+<p>Recall that a factorial, represented by an exclamation mark (!), is a mathematical function in which you multiply a given integer by every positive integer below it. To calculate the factorial of an int, <code>n</code>, we would multiply <code>n</code> by <code>(n-1)</code>, then <code>(n-2)</code>, and so on, until we reach <code>1</code>. For instance, to calculate <code>5!</code>, we would do: <code>5 * 4 * 3 * 2 * 1</code>, which would evaluate to <code>120</code>.</p>
 <p>Let’s explore the recursive implementation of factorial in Python:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="kw">def</span> factorial(n: <span class="bu">int</span>) <span class="op">-&gt;</span> <span class="bu">int</span>:</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>    <span class="co"># Base case: factorial of 0 or 1 is 1</span></span>
@@ -129,13 +129,12 @@
 Factorial of 3: 6</code></pre>
 <p>Let’s visualize how these recursive calls work for the function call, <code>factorial(n=5)</code>:</p>
 <pre class="plaintext"><code>factorial(5) → return 5 * factorial(4)
-                        → return 4 * factorial(3)
-                                     → return 3 * factorial(2)
-                                                  → return 2 * factorial(1)
-                                                               → return 1</code></pre>
+                          → return 4 * factorial(3)
+                                       → return 3 * factorial(2)
+                                                    → return 2 * factorial(1)
+                                                                 → return 1</code></pre>
 <p>For a more thorough animation of how these recursive function calls work, please see <a href="https://docs.google.com/presentation/d/1fjmyTT77Ch4PwP6IooXmKGr6yXkovUoWs5_bApMgqiY/edit?usp=sharing">this slide</a>.</p>
-<p>The diagram illustrates how recursive calls build up and unwind. The downward flow shows each function call breaking down the problem (5 → 4 → 3 → 2 → 1), while the upward flow demonstrates how the results multiply together to give the final answer. Notice how each level waits for the next level to complete before performing its multiplication, ultimately building up to our final result of 120.</p>
-<p>Best Practices and Considerations Base Case Requirements: Every recursive function must have a clear base case Base cases should stop the recursion Multiple base cases are often necessary (as seen in our even/odd example) Memory Usage: Each recursive call creates a new stack frame Deep recursion can lead to stack overflow errors Consider iterative solutions for very large datasets Debugging Tips: Add print statements to track recursive calls Test with small inputs first Watch for infinite recursion</p>
+<p>The animation in the linked slide illustrates how recursive calls build up and unwind. The downward flow shows each function call breaking down the problem with arguments of (4 → 3 → 2 → 1), while the upward flow demonstrates how the return values (RVs) multiply together to give the final answer. Notice how each level waits for the next level to complete before performing its multiplication, ultimately building up to our final result of 24.</p>
 <h2 id="recursion">Recursion</h2>
 <p>A recursive function solves a problem by calling itself with altered arguments that progress toward the base case. To avoid infinite recursion, it must include a base case that stops the recursive calls.</p>
 <h2 id="key-components-of-recursion">Key Components of Recursion</h2>
@@ -144,7 +143,7 @@ Factorial of 3: 6</code></pre>
 <li><strong>Recursive case:</strong> The function calls itself with a modified argument, which progresses toward the base case to prevent infinite recursion. In the factorial example, we do this with the argument, <code>(n - 1)</code>.</li>
 </ol>
 <h2 id="tips-for-debugging-or-writing-a-recursive-function">Tips for Debugging or Writing a Recursive Function</h2>
-<p>Try testing your function with argument values that are close to your base case (meaning, your function won’t call itself lots of times). Write a memory diagram, and reflect on whether your code does what you want it to do. You can also add print statements in your code (e.g., <code>print("Base case reached")</code>), to keep track of the control flow. Just don’t forget to remove them when you’re done!</p>
+<p>Make sure you have a base case written in your code so you don’t encounter a RecursionError or Stack Overflow Error. Try testing your function with argument values that are close to your base case (meaning, your function won’t call itself lots of times). Write a memory diagram for the code, and reflect on whether your code does what you want it to do. Does the base case cause the recursive calls to stop as expected? Do the return values of each function match your expectations? You can also add print statements in your code (e.g., <code>print("Base case reached!")</code>), to keep track of the control flow. Just don’t forget to remove them once you’re finished testing it!</p>
 </div>
 
        
