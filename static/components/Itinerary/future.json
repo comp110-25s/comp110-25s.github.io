@@ -1,5 +1,4 @@
 {
-    "2025-02-06": [],
     "2025-02-07": [
         {
             "kind": "CL",
@@ -8,7 +7,7 @@
             "date": "2025-02-07",
             "deadline": "2025-02-07",
             "links": {
-                "Slides": "/"
+                "Slides": "/static/slides/CL11_livecoding.pdf"
             }
         }
     ],
