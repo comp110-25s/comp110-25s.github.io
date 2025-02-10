@@ -1,18 +1,4 @@
 {
-    "2025-02-07": [
-        {
-            "kind": "CL",
-            "n": 11,
-            "title": "Constants, Default Parameters, User Input, and Recursion Practice",
-            "date": "2025-02-07",
-            "deadline": "2025-02-07",
-            "links": {
-                "Slides": "/static/slides/CL11_livecoding.pdf"
-            }
-        }
-    ],
-    "2025-02-08": [],
-    "2025-02-09": [],
     "2025-02-10": [],
     "2025-02-11": [],
     "2025-02-12": [],
@@ -28,7 +14,9 @@
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
                 "Memory Diagram Rules": "/static/slides/memory_diagrams_v0.pdf",
                 "Review Session in Fred Brooks (FB) 007 on Wednesday, Feb 12 at 6:15pm": "/",
-                "Practice Quiz Coming Soon": "/"
+                "Practice Quiz": "/static/practice/COMP110___25_Spring___Quiz_1___Practice.pdf",
+                "Practice Quiz Key (coming Feb 10)": "/",
+                "Practice Quiz Explanations (coming Feb 10)": "/"
             }
         }
     ],
