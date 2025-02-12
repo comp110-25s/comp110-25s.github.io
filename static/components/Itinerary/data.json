@@ -323,7 +323,8 @@
             "date": "2025-02-07",
             "deadline": "2025-02-07",
             "links": {
-                "Slides": "/static/slides/CL11_livecoding.pdf"
+                "Slides": "/static/slides/CL11_withSol.pdf",
+                "Recording": "https://unc.zoom.us/rec/share/jUzPkxJFLe3WZC35266i6_UnSu9Nb5V5Nq6lLrpi04K819166dgBpsnAlBtegr2f.9NRpTR77spACsIp1?startTime=1738944757000"
             }
         }
     ],
@@ -331,7 +332,18 @@
     "2025-02-09": [],
     "2025-02-10": [],
     "2025-02-11": [],
-    "2025-02-12": [],
+    "2025-02-12": [
+        {
+            "kind": "CL",
+            "n": 12,
+            "title": "Quiz Practice",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/static/slides/CL12_QuizPractice.pdf"
+            }
+        }
+    ],
     "2025-02-13": [],
     "2025-02-14": [
         {
