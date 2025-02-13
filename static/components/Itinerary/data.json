@@ -340,7 +340,8 @@
             "date": "2025-02-12",
             "deadline": "2025-02-12",
             "links": {
-                "Slides": "/static/slides/CL12_QuizPractice.pdf"
+                "Slides": "/static/slides/CL12_QuizPractice.pdf",
+                "Recording": "https://youtu.be/2RQKT5pX7Yo"
             }
         }
     ],

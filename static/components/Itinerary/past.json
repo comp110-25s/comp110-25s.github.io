@@ -331,5 +331,18 @@
     "2025-02-08": [],
     "2025-02-09": [],
     "2025-02-10": [],
-    "2025-02-11": []
+    "2025-02-11": [],
+    "2025-02-12": [
+        {
+            "kind": "CL",
+            "n": 12,
+            "title": "Quiz Practice",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/static/slides/CL12_QuizPractice.pdf",
+                "Recording": "https://youtu.be/2RQKT5pX7Yo"
+            }
+        }
+    ]
 }
