@@ -344,6 +344,123 @@
                 "Slides": "/static/slides/CL12_QuizPractice.pdf",
                 "Recording": "https://youtu.be/2RQKT5pX7Yo"
             }
+        },
+        {
+            "kind": "CL",
+            "n": 13,
+            "title": "Variables",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 9,
+            "title": "Variables",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Complete Lesson 09 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 14,
+            "title": "",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 15,
+            "title": "",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 16,
+            "title": "",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 17,
+            "title": "",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 18,
+            "title": "",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 19,
+            "title": "",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 20,
+            "title": "",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
         }
-    ]
+    ],
+    "2025-02-13": [],
+    "2025-02-14": [
+        {
+            "kind": "QZ",
+            "n": 1,
+            "title": "Quiz 1",
+            "date": "2025-02-14",
+            "deadline": "2025-02-14",
+            "links": {
+                "Read Quiz Expectations": "/resources/quiz-expectations.html",
+                "Memory Diagram Rules": "/static/slides/memory_diagrams_v0.pdf",
+                "Review Session Recording": "https://youtu.be/AABqHaDZ1Tc",
+                "Review Session Slides": "/static/slides/COMP110_Quiz1_ReviewSession.pdf",
+                "Practice Quiz": "/static/practice/comp110-s25-qz01-practice_IH.pdf",
+                "Practice Quiz Key": "/static/practice/comp110-s25-qz01-practice-key.pdf"
+            }
+        }
+    ],
+    "2025-02-15": []
 }

@@ -344,6 +344,104 @@
                 "Slides": "/static/slides/CL12_QuizPractice.pdf",
                 "Recording": "https://youtu.be/2RQKT5pX7Yo"
             }
+        },
+        {
+            "kind": "CL",
+            "n": 13,
+            "title": "Variables",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 9,
+            "title": "Variables",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Complete Lesson 09 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 14,
+            "title": "",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 15,
+            "title": "",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 16,
+            "title": "",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 17,
+            "title": "",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 18,
+            "title": "",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 19,
+            "title": "",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 20,
+            "title": "",
+            "date": "2025-02-12",
+            "deadline": "2025-02-12",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
         }
     ],
     "2025-02-13": [],
@@ -391,7 +489,9 @@
             "title": "Quiz 2",
             "date": "2025-03-07",
             "deadline": "2025-03-07",
-            "links": {}
+            "links": {
+                "Read Quiz Expectations": "/resources/quiz-expectations.html"
+            }
         }
     ],
     "2025-03-08": [],
