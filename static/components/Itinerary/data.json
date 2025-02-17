@@ -362,27 +362,6 @@
                 "Practice Quiz": "/static/practice/comp110-s25-qz01-practice_IH.pdf",
                 "Practice Quiz Key": "/static/practice/comp110-s25-qz01-practice-key.pdf"
             }
-        },
-        {
-            "kind": "CL",
-            "n": 13,
-            "title": "Variables",
-            "date": "2025-02-14",
-            "deadline": "2025-02-14",
-            "links": {
-                "Slides": "/",
-                "Recording": ""
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 9,
-            "title": "Variables",
-            "date": "2025-02-14",
-            "deadline": "2025-02-14",
-            "links": {
-                "Complete Lesson 09 Responses on Gradescope": "https://www.gradescope.com/"
-            }
         }
     ],
     "2025-02-15": [],
@@ -390,13 +369,23 @@
     "2025-02-17": [
         {
             "kind": "CL",
-            "n": 14,
-            "title": "",
+            "n": 13,
+            "title": "Variables",
             "date": "2025-02-17",
             "deadline": "2025-02-17",
             "links": {
-                "Slides": "/",
+                "Slides": "/static/slides/CL13_Variables.pdf",
                 "Recording": ""
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 9,
+            "title": "Variables",
+            "date": "2025-02-17",
+            "deadline": "2025-02-17",
+            "links": {
+                "Complete Lesson 09 Responses on Gradescope": "https://www.gradescope.com/"
             }
         }
     ],
