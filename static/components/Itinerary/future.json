@@ -1,31 +1,29 @@
 {
-    "2025-02-17": [
+    "2025-02-20": [],
+    "2025-02-21": [
         {
             "kind": "CL",
-            "n": 13,
-            "title": "Variables",
-            "date": "2025-02-17",
-            "deadline": "2025-02-17",
+            "n": 15,
+            "title": "ASYNC - while Loops",
+            "date": "2025-02-21",
+            "deadline": "2025-02-21",
             "links": {
-                "Slides": "/static/slides/CL13_Variables.pdf",
-                "Recording": "https://youtu.be/lojhBfm9USM"
+                "Slides": "/",
+                "Optional Reading": "/lessons/while_loops.html",
+                "Recording": ""
             }
         },
         {
             "kind": "LS",
-            "n": 9,
-            "title": "Variables",
-            "date": "2025-02-17",
-            "deadline": "2025-02-17",
+            "n": 10,
+            "title": "while Loops",
+            "date": "2025-02-21",
+            "deadline": "2025-02-21",
             "links": {
-                "Complete Lesson 09 Responses on Gradescope": "https://www.gradescope.com/"
+                "Complete Lesson 10 Responses on Gradescope": "https://www.gradescope.com/"
             }
         }
     ],
-    "2025-02-18": [],
-    "2025-02-19": [],
-    "2025-02-20": [],
-    "2025-02-21": [],
     "2025-02-22": [],
     "2025-02-23": [],
     "2025-02-24": [],

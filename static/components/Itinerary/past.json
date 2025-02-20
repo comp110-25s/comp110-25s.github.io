@@ -365,5 +365,30 @@
         }
     ],
     "2025-02-15": [],
-    "2025-02-16": []
+    "2025-02-16": [],
+    "2025-02-17": [
+        {
+            "kind": "CL",
+            "n": 13,
+            "title": "Variables",
+            "date": "2025-02-17",
+            "deadline": "2025-02-17",
+            "links": {
+                "Slides": "/static/slides/CL13_Variables.pdf",
+                "Recording": "https://youtu.be/lojhBfm9USM"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 9,
+            "title": "Variables",
+            "date": "2025-02-17",
+            "deadline": "2025-02-17",
+            "links": {
+                "Complete Lesson 09 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2025-02-18": [],
+    "2025-02-19": []
 }
