@@ -1,5 +1,4 @@
 {
-    "2025-02-20": [],
     "2025-02-21": [
         {
             "kind": "CL",
@@ -9,8 +8,8 @@
             "deadline": "2025-02-21",
             "links": {
                 "Optional Reading": "/lessons/while_loops.html",
-                "Slides": "",
-                "Video": ""
+                "Slides": "/static/slides/CL15_whileLoops.pdf",
+                "Video": "https://youtu.be/P5SQE5BGq5A"
             }
         },
         {
