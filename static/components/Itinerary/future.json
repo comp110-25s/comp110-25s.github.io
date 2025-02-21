@@ -8,17 +8,17 @@
             "date": "2025-02-21",
             "deadline": "2025-02-21",
             "links": {
-                "Slides": "/",
                 "Optional Reading": "/lessons/while_loops.html",
-                "Recording": ""
+                "Slides": "",
+                "Video": ""
             }
         },
         {
             "kind": "LS",
             "n": 10,
-            "title": "while Loops",
+            "title": "while Loops (Due Sunday 2/23)",
             "date": "2025-02-21",
-            "deadline": "2025-02-21",
+            "deadline": "2025-02-23",
             "links": {
                 "Complete Lesson 10 Responses on Gradescope": "https://www.gradescope.com/"
             }
