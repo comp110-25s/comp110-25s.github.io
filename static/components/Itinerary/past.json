@@ -391,5 +391,31 @@
     ],
     "2025-02-18": [],
     "2025-02-19": [],
-    "2025-02-20": []
+    "2025-02-20": [],
+    "2025-02-21": [
+        {
+            "kind": "CL",
+            "n": 15,
+            "title": "ASYNC - while Loops",
+            "date": "2025-02-21",
+            "deadline": "2025-02-21",
+            "links": {
+                "Optional Reading": "/lessons/while_loops.html",
+                "Slides": "/static/slides/CL15_whileLoops.pdf",
+                "Video": "https://youtu.be/P5SQE5BGq5A"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 10,
+            "title": "while Loops (Due Sunday 2/23)",
+            "date": "2025-02-21",
+            "deadline": "2025-02-23",
+            "links": {
+                "Complete Lesson 10 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2025-02-22": [],
+    "2025-02-23": []
 }

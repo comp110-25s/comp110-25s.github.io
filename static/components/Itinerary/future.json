@@ -1,31 +1,27 @@
 {
-    "2025-02-21": [
+    "2025-02-24": [
         {
             "kind": "CL",
-            "n": 15,
-            "title": "ASYNC - while Loops",
-            "date": "2025-02-21",
-            "deadline": "2025-02-21",
+            "n": 16,
+            "title": "Practice with while Loops",
+            "date": "2025-02-24",
+            "deadline": "2025-02-24",
             "links": {
-                "Optional Reading": "/lessons/while_loops.html",
-                "Slides": "/static/slides/CL15_whileLoops.pdf",
-                "Video": "https://youtu.be/P5SQE5BGq5A"
+                "Slides": "/static/slides/CL16_whilePractice.pdf",
+                "Recording": ""
             }
         },
         {
-            "kind": "LS",
-            "n": 10,
-            "title": "while Loops (Due Sunday 2/23)",
-            "date": "2025-02-21",
-            "deadline": "2025-02-23",
+            "kind": "EX",
+            "n": 2,
+            "title": "Wordle (Due Sunday 3/2)",
+            "date": "2025-02-24",
+            "deadline": "2025-03-02",
             "links": {
-                "Complete Lesson 10 Responses on Gradescope": "https://www.gradescope.com/"
+                "": "/exercises/ex02_wordle.html"
             }
         }
     ],
-    "2025-02-22": [],
-    "2025-02-23": [],
-    "2025-02-24": [],
     "2025-02-25": [],
     "2025-02-26": [],
     "2025-02-27": [],
