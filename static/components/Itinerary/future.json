@@ -1,29 +1,27 @@
 {
-    "2025-02-24": [
+    "2025-02-26": [
         {
             "kind": "CL",
-            "n": 16,
-            "title": "Practice with while Loops",
-            "date": "2025-02-24",
-            "deadline": "2025-02-24",
+            "n": 17,
+            "title": "",
+            "date": "2025-02-26",
+            "deadline": "2025-02-26",
             "links": {
-                "Slides": "/static/slides/CL16_whilePractice.pdf",
-                "Recording": "https://youtu.be/Zx8isO-3F1w"
+                "Slides": "/static/slides/CL17_Lists.pdf",
+                "Recording": ""
             }
         },
         {
-            "kind": "EX",
+            "kind": "CQ",
             "n": 2,
-            "title": "Wordle (Due Sunday 3/2)",
-            "date": "2025-02-24",
-            "deadline": "2025-03-02",
+            "title": "Table of List Features",
+            "date": "2025-02-26",
+            "deadline": "2025-02-26",
             "links": {
-                "": "/exercises/ex02_wordle.html"
+                "": "https://www.gradescope.com"
             }
         }
     ],
-    "2025-02-25": [],
-    "2025-02-26": [],
     "2025-02-27": [],
     "2025-02-28": [],
     "2025-03-01": [],
