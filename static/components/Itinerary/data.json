@@ -481,7 +481,8 @@
             "date": "2025-03-07",
             "deadline": "2025-03-07",
             "links": {
-                "Read Quiz Expectations": "/resources/quiz-expectations.html"
+                "Read Quiz Expectations": "/resources/quiz-expectations.html",
+                "Practice Quiz": "/static/practice/COMP110___25_Spring___Quiz_2___Version_Practice.pdf"
             }
         }
     ],
