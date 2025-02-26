@@ -446,11 +446,11 @@
         {
             "kind": "CL",
             "n": 17,
-            "title": "",
+            "title": "Lists",
             "date": "2025-02-26",
             "deadline": "2025-02-26",
             "links": {
-                "Slides": "/static/slides/CL17_Lists.pdf",
+                "Slides": "/static/slides/CL17_Lists_noAnswers.pdf",
                 "Recording": ""
             }
         },
