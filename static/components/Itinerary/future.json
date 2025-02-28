@@ -1,29 +1,27 @@
 {
-    "2025-02-26": [
+    "2025-02-28": [
         {
             "kind": "CL",
-            "n": 17,
-            "title": "Lists",
-            "date": "2025-02-26",
-            "deadline": "2025-02-26",
+            "n": 18,
+            "title": "Reference Types and Practice with Lists",
+            "date": "2025-02-28",
+            "deadline": "2025-02-28",
             "links": {
-                "Slides": "/static/slides/CL17_Lists_noAnswers.pdf",
-                "Recording": "https://youtu.be/b8PyxeEIyMY"
+                "Slides": "/static/slides/CL18_Lists.pdf",
+                "Recording": ""
             }
         },
         {
             "kind": "CQ",
-            "n": 2,
-            "title": "Table of List Features",
-            "date": "2025-02-26",
-            "deadline": "2025-02-26",
+            "n": 3,
+            "title": "Memory Diagram with Lists",
+            "date": "2025-02-28",
+            "deadline": "2025-02-28",
             "links": {
                 "": "https://www.gradescope.com"
             }
         }
     ],
-    "2025-02-27": [],
-    "2025-02-28": [],
     "2025-03-01": [],
     "2025-03-02": [],
     "2025-03-03": [],
