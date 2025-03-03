@@ -3,22 +3,12 @@
         {
             "kind": "CL",
             "n": 19,
-            "title": "More Practice with Lists and While Loops",
+            "title": "Nested while Loops and Lists",
             "date": "2025-03-03",
             "deadline": "2025-03-03",
             "links": {
-                "Slides": "/",
+                "Slides": "/static/slides/CL19_nesting.pdf",
                 "Recording": ""
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 4,
-            "title": "Function-Writing Practice",
-            "date": "2025-03-03",
-            "deadline": "2025-03-03",
-            "links": {
-                "": "https://www.gradescope.com"
             }
         }
     ],
