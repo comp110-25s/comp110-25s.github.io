@@ -1,30 +1,18 @@
 {
-    "2025-02-28": [
+    "2025-03-02": [],
+    "2025-03-03": [
         {
             "kind": "CL",
-            "n": 18,
-            "title": "Reference Types and Practice with Lists",
-            "date": "2025-02-28",
-            "deadline": "2025-02-28",
+            "n": 19,
+            "title": "More Practice with Lists and While Loops",
+            "date": "2025-03-03",
+            "deadline": "2025-03-03",
             "links": {
-                "Slides": "/static/slides/CL18_Lists.pdf",
-                "Recording": "https://youtu.be/6-ddHtVM8bM"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 3,
-            "title": "Memory Diagram with Lists",
-            "date": "2025-02-28",
-            "deadline": "2025-02-28",
-            "links": {
-                "": "https://www.gradescope.com"
+                "Slides": "/",
+                "Recording": ""
             }
         }
     ],
-    "2025-03-01": [],
-    "2025-03-02": [],
-    "2025-03-03": [],
     "2025-03-04": [],
     "2025-03-05": [],
     "2025-03-06": [],
@@ -37,7 +25,8 @@
             "deadline": "2025-03-07",
             "links": {
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
-                "Practice Quiz": "/static/practice/COMP110___25_Spring___Quiz_2___Version_Practice.pdf"
+                "Review Session on Wed, March 5 from 6:15-7:15pm in Sitterson Hall (SN), room 014": "/",
+                "Practice Quiz": "/static/practice/comp110-s25-qz02-practice_IH.pdf"
             }
         }
     ],

@@ -465,5 +465,29 @@
             }
         }
     ],
-    "2025-02-27": []
+    "2025-02-27": [],
+    "2025-02-28": [
+        {
+            "kind": "CL",
+            "n": 18,
+            "title": "Reference Types and Practice with Lists",
+            "date": "2025-02-28",
+            "deadline": "2025-02-28",
+            "links": {
+                "Slides": "/static/slides/CL18_Lists.pdf",
+                "Recording": "https://youtu.be/6-ddHtVM8bM"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 3,
+            "title": "Memory Diagram with Lists",
+            "date": "2025-02-28",
+            "deadline": "2025-02-28",
+            "links": {
+                "": "https://www.gradescope.com"
+            }
+        }
+    ],
+    "2025-03-01": []
 }
