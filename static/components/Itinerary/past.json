@@ -490,5 +490,19 @@
         }
     ],
     "2025-03-01": [],
-    "2025-03-02": []
+    "2025-03-02": [],
+    "2025-03-03": [
+        {
+            "kind": "CL",
+            "n": 19,
+            "title": "Nested while Loops and Lists",
+            "date": "2025-03-03",
+            "deadline": "2025-03-03",
+            "links": {
+                "Slides": "/static/slides/CL19_NestedwhileLoopsandLists.pdf",
+                "Recording": "https://youtu.be/7BCh1pkn89g"
+            }
+        }
+    ],
+    "2025-03-04": []
 }

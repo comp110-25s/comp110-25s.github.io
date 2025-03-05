@@ -505,7 +505,29 @@
         }
     ],
     "2025-03-04": [],
-    "2025-03-05": [],
+    "2025-03-05": [
+        {
+            "kind": "CL",
+            "n": 20,
+            "title": "",
+            "date": "2025-03-05",
+            "deadline": "2025-03-05",
+            "links": {
+                "Slides": "/",
+                "Recording": ""
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 4,
+            "title": "Hand-Writing a Function",
+            "date": "2025-03-05",
+            "deadline": "2025-03-05",
+            "links": {
+                "": "https://www.gradescope.com"
+            }
+        }
+    ],
     "2025-03-06": [],
     "2025-03-07": [
         {
@@ -518,6 +540,7 @@
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
                 "Review Session on Wed, March 5 from 6:15-7:15pm in Sitterson Hall (SN), room 014": "/",
                 "Practice Quiz": "/static/practice/comp110-s25-qz02-practice_IH.pdf",
+                "Practice Quiz Key": "/static/practice/comp110-s25-qz02-practice_IH-key.pdf",
                 "Practice Quiz Explanations (part 1)": "https://youtu.be/osO2bx-xQGQ"
             }
         }
