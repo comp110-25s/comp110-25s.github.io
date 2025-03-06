@@ -32,7 +32,8 @@
             "deadline": "2025-03-07",
             "links": {
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
-                "Review Session on Wed, March 5 from 6:15-7:15pm in Sitterson Hall (SN), room 014": "/",
+                "Review Session Slides": "/static/slides/COMP110_Quiz2_ReviewSession.pdf",
+                "Review Session Recording": "https://youtu.be/yWB8AZ_dSns",
                 "Practice Quiz": "/static/practice/comp110-s25-qz02-practice_IH.pdf",
                 "Practice Quiz Key": "/static/practice/comp110-s25-qz02-practice_IH-key.pdf",
                 "Practice Quiz Explanations (part 1)": "https://youtu.be/osO2bx-xQGQ"
