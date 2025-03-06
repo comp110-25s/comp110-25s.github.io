@@ -504,5 +504,28 @@
             }
         }
     ],
-    "2025-03-04": []
+    "2025-03-04": [],
+    "2025-03-05": [
+        {
+            "kind": "CL",
+            "n": 20,
+            "title": "Practice with Hand-Writing Functions",
+            "date": "2025-03-05",
+            "deadline": "2025-03-05",
+            "links": {
+                "Slides": "/static/slides/CL20_ Function-WritingPractice.pdf",
+                "Recording": "https://youtu.be/UJq5BGhBtKI"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 4,
+            "title": "Hand-Writing a Function",
+            "date": "2025-03-05",
+            "deadline": "2025-03-05",
+            "links": {
+                "": "https://www.gradescope.com"
+            }
+        }
+    ]
 }
