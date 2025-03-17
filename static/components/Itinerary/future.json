@@ -1,34 +1,16 @@
 {
-    "2025-03-06": [],
-    "2025-03-07": [
+    "2025-03-17": [
         {
-            "kind": "QZ",
-            "n": 2,
-            "title": "Quiz 2",
-            "date": "2025-03-07",
-            "deadline": "2025-03-07",
+            "kind": "CL",
+            "n": 21,
+            "title": "Importing and Writing Automated Tests for Functions",
+            "date": "2025-03-17",
+            "deadline": "2025-03-17",
             "links": {
-                "Read Quiz Expectations": "/resources/quiz-expectations.html",
-                "Review Session Slides": "/static/slides/COMP110_Quiz2_ReviewSession.pdf",
-                "Review Session Recording": "https://youtu.be/edcfC8eTeTU",
-                "Practice Quiz": "/static/practice/comp110-s25-qz02-practice_IH.pdf",
-                "Practice Quiz Key": "/static/practice/comp110-s25-qz02-practice_IH-key.pdf",
-                "Practice Quiz Explanations (Questions 1-4)": "https://youtu.be/osO2bx-xQGQ",
-                "Practice Quiz Explanations (Question 5)": "https://youtu.be/V_iU0fJFzis",
-                "Practice Quiz Explanations (Question 9)": "https://youtu.be/biDCe_BvYqg?feature=shared"
+                "Slides": "/static/slides/CL21_importing_unit_tests.pdf"
             }
         }
     ],
-    "2025-03-08": [],
-    "2025-03-09": [],
-    "2025-03-10": [],
-    "2025-03-11": [],
-    "2025-03-12": [],
-    "2025-03-13": [],
-    "2025-03-14": [],
-    "2025-03-15": [],
-    "2025-03-16": [],
-    "2025-03-17": [],
     "2025-03-18": [],
     "2025-03-19": [],
     "2025-03-20": [],
