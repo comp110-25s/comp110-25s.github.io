@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> EX05 - Dictionary Functions - COMP110 - 25S</title>
+  <title> EX03 - Dictionary Functions - COMP110 - 25S</title>
   <link rel="icon" type="image/png" href="/static/s25_brand.png" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1742382200.7840743">
+  <link rel="stylesheet" href="/static/styles.css?v=1742382202.8632598">
 </head>
 
 
@@ -79,7 +79,7 @@
   <div id="exercises-page" class="container">
     <div class="row pt-4">
       <div class="col-12">
-        <h1>EX05 - Dictionary Functions</h1>
+        <h1>EX03 - Dictionary Functions</h1>
       </div>
     </div>
     
@@ -99,7 +99,8 @@
 <li><a href="#count">2. <code>count</code></a></li>
 <li><a href="#favorite_color">3. <code>favorite_color</code></a></li>
 <li><a href="#bin_len">4. <code>bin_len</code></a></li>
-<li><a href="#submit-to-gradescope-for-grading">4. Submit to Gradescope for Grading</a></li>
+<li><a href="#make-a-backup-checkpoint-commit">4. Make a Backup Checkpoint “Commit”</a></li>
+<li><a href="#submit-to-gradescope-for-grading">5. Submit to Gradescope for Grading</a></li>
 </ul>
 </</ul>
                         </div>
@@ -130,10 +131,10 @@
 </ul>
 <p>Note: Even if your functions are not 100% correct or finished, you can get full credit for the unit tests if you set up a function skeleton and write your tests assuming correct functionality.</p>
 <h2 id="setup">0. Setup</h2>
-<p>Create a new <strong>directory</strong> in <code>exercises</code> named <code>ex05</code>.</p>
-<p>Inside the <code>exercises/ex05</code> directory, create a file named <code>dictionary.py</code>. Add a docstring and establish an <code>__author__</code> variable to be assigned a string with the digits of your PID. This is where you will implement your function skeletons and implementations below.</p>
+<p>Create a new <strong>directory</strong> in <code>exercises</code> named <code>ex03</code>.</p>
+<p>Inside the <code>exercises/ex03</code> directory, create a file named <code>dictionary.py</code>. Add a docstring and establish an <code>__author__</code> variable to be assigned a string with the digits of your PID. This is where you will implement your function skeletons and implementations below.</p>
 <p>Unit Tests</p>
-<p>Also inside the <code>exercises/ex05</code> directory, create a file named <code>dictionary_test.py</code>. Add a docstring and establish an <code>__author__</code> in this file as well.</p>
+<p>Also inside the <code>exercises/ex03</code> directory, create a file named <code>dictionary_test.py</code>. Add a docstring and establish an <code>__author__</code> in this file as well.</p>
 <p>For each function from below (<code>invert</code>, <code>count</code>, <code>favorite_color</code>, <code>bin_len</code>), you are to define at least <strong>3x unit test</strong> functions. Remember that a unit test function starts with <code>test_</code>.</p>
 <p>The 3 unit tests should consist of:</p>
 <ul>
@@ -141,9 +142,15 @@
 <li>Two use cases</li>
 </ul>
 <p>Include descriptive function names and docstrings, so that it captures what is being tested.</p>
-<p>The command to run your tests is <code>python -m pytest exercises/ex05</code> or you can run them using the beaker tab in VSCode if it is working (do note the VSCode testing feature tends to be a bit flaky).</p>
-<p>Just like in <code>ex04</code>, you will need to import your functions in your tests file.</p>
-<p>If your screen is large enough, you are encouraged to open these files side-by-side in VSCode by dragging the tab of one to the right side of VSCode so that it changes to a split pane view. Closing your file explorer can help give you additional horizontal space.</p>
+<p>The command to run your tests is <code>python -m pytest exercises/ex03</code> or you can run them using the beaker tab in VSCode if it is working (do note the VSCode testing feature tends to be a bit flaky).</p>
+<p>Once you’re ready to import and begin testing your skeleton function implementations, you can add the following import lines, one-by-one, corresponding to the functions you have defined.</p>
+<pre class="plaintext"><code>from exercises.ex03.dictionary import invert
+from exercises.ex03.dictionary import favorite_color
+from exercises.ex03.dictionary import count
+from exercises.ex03.dictionary import bin_len</code></pre>
+<p>Once you have completed all functions, you can reduce the import lines down into a single one to minimize redundancy in your testing code:</p>
+<pre class="plaintext"><code>from exercises.ex03.dictionary import invert, favorite_color, count, bin_len</code></pre>
+<p>If your screen is large enough, you are encouraged to open these files side-by-side in VSCode by dragging the tab of one to the right side of VSCode so that it changes to a split pane view. Closing your file explorer (by clicking the icon of the overlapping papers in the top left corner) can help give you additional horizontal space.</p>
 <h2 id="invert">1. <code>invert</code></h2>
 <p>This is the first function you will write in <code>dictionary.py</code>. The other two functions will also be defined in this file.</p>
 <p>Given a <code>dictionary</code> of <code>[str, str]</code>, <code>invert</code> should return a <code>dict[str, str]</code> that inverts the keys and the values. The keys of the input list becomes the values of the output list and vice versa.</p>
@@ -161,9 +168,9 @@ KeyError</code></pre>
 <li>Make sure to <code>import pytest</code></li>
 <li>Use the following code as an example:</li>
 </ol>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a>    <span class="cf">with</span> pytest.raises(<span class="pp">KeyError</span>):</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>        my_dictionary <span class="op">=</span> {<span class="st">&#39;kris&#39;</span>: <span class="st">&#39;jordan&#39;</span>, <span class="st">&#39;michael&#39;</span>: <span class="st">&#39;jordan&#39;</span>}</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a>        invert(my_dictionary)</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a>    <span class="cf">with</span> pytest.raises(<span class="pp">KeyError</span>):</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true"></a>        my_dictionary <span class="op">=</span> {<span class="st">&#39;kris&#39;</span>: <span class="st">&#39;jordan&#39;</span>, <span class="st">&#39;michael&#39;</span>: <span class="st">&#39;jordan&#39;</span>}</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true"></a>        invert(my_dictionary)</span></code></pre></div>
 <h2 id="count">2. <code>count</code></h2>
 <p>Given a <code>list[str]</code>, this function will produce a <code>dict[str, int]</code> where each key is a unique value in the given list and each value associated is the <em>count</em> of the number of times that value appeared in the input list.</p>
 <ul>
@@ -199,13 +206,26 @@ KeyError</code></pre>
 <pre class="plaintext"><code>assert bin_len([&quot;the&quot;, &quot;quick&quot;, &quot;fox&quot;]) == {3: {&quot;the&quot;, &quot;fox&quot;}, 5: {&quot;quick&quot;}}
 assert bin_len([&quot;the&quot;, &quot;the&quot;, &quot;fox&quot;]) == {3: {&quot;the&quot;, &quot;fox&quot;}}</code></pre>
 <p>You should write your skeleton function implementation and runnable tests before continuing on. It is a challenge left to you to define the correct parameter type and return type based on the problem description.</p>
-<h2 id="submit-to-gradescope-for-grading">4. Submit to Gradescope for Grading</h2>
-<p>Login to Gradescope and select the assignment named “EX05 - Dictionary Functions.”. You’ll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.</p>
+<h2 id="make-a-backup-checkpoint-commit">4. Make a Backup Checkpoint “Commit”</h2>
+<p>As you make progress on this exercise, making backups is encouraged.</p>
+<ol type="1">
+<li>Open the Source Control panel (Command Palette: “Show SCM” or click the icon with three circles and lines on the activity panel).</li>
+<li>Notice the files listed under Changes. These are files you’ve made modifications to since your last backup.</li>
+<li>Move your mouse’s cursor over the word <em>Changes</em> and notice the + symbol that appears. Click that plus symbol to add all changes to the next backup. You will now see the files listed under “Staged Changes”.
+<ul>
+<li>If you do not want to backup <em>all</em> changed files, you can select them individually. For this course you’re encouraged to back everything up.</li>
+</ul></li>
+<li>In the Message box, give a brief description of what you’ve changed and are backing up. This will help you find a specific backup (called a “commit”) if needed. In this case a message such as, “Progress on Exercise” will suffice.</li>
+<li>Press the Check icon to make a <em>Commit</em> (a version) of your work.</li>
+<li>Finally, press the Ellipses icon (…), look for “Pull/Push” submenu, and select “Push to…”, and in the dropdown select your backup repository.</li>
+</ol>
+<h2 id="submit-to-gradescope-for-grading">5. Submit to Gradescope for Grading</h2>
+<p>Login to Gradescope and select the assignment named “EX03 - Dictionary Functions.”. You’ll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.</p>
 <p>If you <em>do not</em> see a Terminal at the bottom of your screen, open the Command Palette and search for “View: Toggle Integrated Terminal”.</p>
 <p>Type the following command (all on a single line):</p>
-<p><code>python -m tools.submission exercises/ex05</code></p>
-<p>In the file explorer pane, look to find the zip file named “yy.mm.dd-hh.mm-exercises-ex05.zip”. The “yy”, “mm”, “dd”, and so on, are timestamps with the current month, day, hour, minute. If you right click on this file and select “Reveal in File Explorer” on Windows or “Reveal in Finder” on Mac, the zip file’s location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.</p>
-<p>Autograding will take a few moments to complete. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren’t receiving full credit and aren’t sure what to try next, come give us a visit in office hours!</p>
+<p><code>python -m tools.submission exercises/ex03</code></p>
+<p>In the file explorer pane, look to find the zip file named “yy.mm.dd-hh.mm-exercises-ex03.zip”. The “yy”, “mm”, “dd”, and so on, are timestamps with the current month, day, hour, minute. If you right click on this file and select “Reveal in File Explorer” on Windows or “Reveal in Finder” on Mac, the zip file’s location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.</p>
+<p>Autograding will take a few moments to complete. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren’t receiving full credit and aren’t sure what to try next, come visit us in office hours!</p>
 </div>
 
        
@@ -214,7 +234,7 @@ assert bin_len([&quot;the&quot;, &quot;the&quot;, &quot;fox&quot;]) == {3: {&quo
     </div>
     </div>
     <div class="authors-box bg-dark mt-4 py-3 ps-4">
-      <span> Contributor(s): Kaki Ryan</span>
+      <span> Contributor(s):        Kaki Ryan, Izzi Hinks</span>
     </div>
 
   </div>
