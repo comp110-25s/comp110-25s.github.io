@@ -60,6 +60,14 @@ button:focus {
   outline: 5px solid white;
 } */
 
+#page-title {
+  padding: 1rem;
+}
+
+#team-site-title {
+  padding-top: 1.5rem;
+}
+
 body,
 .cloud-container {
   width: 100%;
@@ -73,6 +81,7 @@ body,
   font-size: 1.15em;
   font-family: "Cabin", sans-serif;
 }
+
 .cloud-container {
   background-color: #00a0c4;
   background: linear-gradient(to bottom, #29b0cf 1%, #b0d6f7 100%);
@@ -418,8 +427,8 @@ a:hover {
 /* TEAM PROFILES */
 
 .profile {
-  height: 210px;
-  width: 210px;
+  height: 230px;
+  width: 230px;
   margin: 10px;
 }
 
@@ -440,6 +449,7 @@ a:hover {
 
 #profile-page figcaption {
   display: none;
+  font-size: medium;
 }
 
 /* Team Site Login  */

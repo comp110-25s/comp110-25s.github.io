@@ -31,7 +31,7 @@
     <div class="wrapper">
 
     {# NavBar #}
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-1 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark py-1 fixed-top">
       <div class="container">
         <a href="/team" class="navbar-brand">COMP 110</a>
         {# Hamburger Icon on smaller screens #}
@@ -64,7 +64,7 @@
     <div id="{{page}}-page" class="container">
         <div class="row pt-4">
             <div class="col-12">
-            <h2 >{{title}}</h2>
+            <h2 id="team-site-title">{{title}}</h2>
             <hr class="title"/>
         </div>
         {% block content %}{% endblock %}
@@ -76,7 +76,7 @@
 
 
     {# CONTRIBUTORS BOX #}
-    <div class="authors-box bg-light mt-4 py-3 ps-4">
+    <div class="authors-box bg-dark mt-4 py-3 ps-4">
       <span> Contributor(s): 
       {%- if author != "" -%}
           {%- for person in range(author|length-1) %}
