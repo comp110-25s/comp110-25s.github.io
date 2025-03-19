@@ -1,18 +1,26 @@
 {
-    "2025-03-17": [
+    "2025-03-19": [
         {
             "kind": "CL",
-            "n": 21,
-            "title": "Importing and Writing Automated Tests for Functions",
-            "date": "2025-03-17",
-            "deadline": "2025-03-17",
+            "n": 22,
+            "title": "Sets and Dictionaries",
+            "date": "2025-03-19",
+            "deadline": "2025-03-19",
             "links": {
-                "Slides": "/static/slides/CL21_importing_unit_tests.pdf"
+                "Slides": ""
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 11,
+            "title": "Dictionaries",
+            "date": "2025-03-19",
+            "deadline": "2025-03-19",
+            "links": {
+                "Complete Lesson 11 Responses on Gradescope": "https://www.gradescope.com/"
             }
         }
     ],
-    "2025-03-18": [],
-    "2025-03-19": [],
     "2025-03-20": [],
     "2025-03-21": [],
     "2025-03-22": [],
