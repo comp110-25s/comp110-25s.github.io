@@ -595,9 +595,9 @@
         {
             "kind": "EX",
             "n": 3,
-            "title": "Dictionary Utility Functions (Due Tuesday 3/25)",
+            "title": "Dictionary Utility Functions (Due Wednesday 3/26)",
             "date": "2025-03-19",
-            "deadline": "2025-03-25",
+            "deadline": "2025-03-26",
             "links": {
                 "": "/exercises/ex03_dict_functions.html"
             }
