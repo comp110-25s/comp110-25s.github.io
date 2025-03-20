@@ -1,36 +1,4 @@
 {
-    "2025-03-19": [
-        {
-            "kind": "CL",
-            "n": 22,
-            "title": "Sets and Dictionaries",
-            "date": "2025-03-19",
-            "deadline": "2025-03-19",
-            "links": {
-                "Slides": "/static/slides/CL22_SetsandDictionaries.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 11,
-            "title": "Dictionaries (Due Friday 3/21)",
-            "date": "2025-03-19",
-            "deadline": "2025-03-21",
-            "links": {
-                "Complete Lesson 11 Responses on Gradescope": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 3,
-            "title": "Set and Dictionary Utility Functions (Due Wednesday 3/26)",
-            "date": "2025-03-19",
-            "deadline": "2025-03-26",
-            "links": {
-                "": "/exercises/ex03_dict_functions.html"
-            }
-        }
-    ],
     "2025-03-20": [],
     "2025-03-21": [],
     "2025-03-22": [],
