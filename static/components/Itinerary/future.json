@@ -1,6 +1,16 @@
 {
-    "2025-03-20": [],
-    "2025-03-21": [],
+    "2025-03-21": [
+        {
+            "kind": "CL",
+            "n": 23,
+            "title": "Practice with Sets and Dictionaries",
+            "date": "2025-03-21",
+            "deadline": "2025-03-21",
+            "links": {
+                "Slides": "/static/slides/CL23.pdf"
+            }
+        }
+    ],
     "2025-03-22": [],
     "2025-03-23": [],
     "2025-03-24": [],
