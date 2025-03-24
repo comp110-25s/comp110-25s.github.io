@@ -1,19 +1,16 @@
 {
-    "2025-03-21": [
+    "2025-03-24": [
         {
             "kind": "CL",
-            "n": 23,
+            "n": 24,
             "title": "Practice with Sets and Dictionaries",
-            "date": "2025-03-21",
-            "deadline": "2025-03-21",
+            "date": "2025-03-24",
+            "deadline": "2025-03-24",
             "links": {
-                "Slides": "/static/slides/CL23_ListsnSets.pdf"
+                "Slides": ""
             }
         }
     ],
-    "2025-03-22": [],
-    "2025-03-23": [],
-    "2025-03-24": [],
     "2025-03-25": [],
     "2025-03-26": [],
     "2025-03-27": [],
@@ -24,7 +21,11 @@
             "title": "Quiz 3",
             "date": "2025-03-28",
             "deadline": "2025-03-28",
-            "links": {}
+            "links": {
+                "Read Quiz Expectations": "/resources/quiz-expectations.html",
+                "Review Session on Wed, March 26 from 6:15-7:15pm in Fred Brooks (FB), room 009": "/",
+                "Practice Quiz": "/static/practice/comp110-s25-qz03-practice_IH.pdf"
+            }
         }
     ],
     "2025-03-29": [],
