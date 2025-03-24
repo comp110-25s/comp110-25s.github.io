@@ -628,7 +628,8 @@
             "date": "2025-03-24",
             "deadline": "2025-03-24",
             "links": {
-                "Slides": "/static/slides/CL24_TimeComplexityandPracticeSetsDictionaries.pdf"
+                "Slides": "/static/slides/CL24_TimeComplexityandPracticeSetsDictionaries.pdf",
+                "Recording": "https://youtu.be/oNGbGW53aNA"
             }
         }
     ],
