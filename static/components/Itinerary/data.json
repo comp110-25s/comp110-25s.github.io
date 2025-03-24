@@ -586,9 +586,9 @@
         {
             "kind": "LS",
             "n": 11,
-            "title": "Dictionaries (Due Friday 3/21)",
+            "title": "Dictionaries (Due Monday 3/24)",
             "date": "2025-03-19",
-            "deadline": "2025-03-21",
+            "deadline": "2025-03-24",
             "links": {
                 "Complete Lesson 11 Responses on Gradescope": "https://www.gradescope.com/"
             }
@@ -609,11 +609,12 @@
         {
             "kind": "CL",
             "n": 23,
-            "title": "Practice with Sets and Dictionaries",
+            "title": "Addressing Common Knowledge Gaps Seen on Quiz 02 and Brief Intro to Time Complexity",
             "date": "2025-03-21",
             "deadline": "2025-03-21",
             "links": {
-                "Slides": "/static/slides/CL23_ListsnSets.pdf"
+                "Slides": "/static/slides/CL23_ListsnSets.pdf",
+                "Recording": "https://youtu.be/tmu0F2c_h4k"
             }
         }
     ],
@@ -623,7 +624,7 @@
         {
             "kind": "CL",
             "n": 24,
-            "title": "Practice with Sets and Dictionaries",
+            "title": "Time Complexity and Practice with Sets and Dictionaries",
             "date": "2025-03-24",
             "deadline": "2025-03-24",
             "links": {
