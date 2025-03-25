@@ -646,7 +646,8 @@
             "links": {
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
                 "Review Session on Wed, March 26 from 6:15-7:15pm in Fred Brooks (FB), room 009": "/",
-                "Practice Quiz": "/static/practice/comp110-s25-qz03-practice_IH.pdf"
+                "Practice Quiz": "/static/practice/comp110-s25-qz03-practice_IH.pdf",
+                "Practice Quiz Key": "/static/practice/comp110-s25-qz03-practice_IH-key.pdf"
             }
         }
     ],
