@@ -619,5 +619,18 @@
         }
     ],
     "2025-03-22": [],
-    "2025-03-23": []
+    "2025-03-23": [],
+    "2025-03-24": [
+        {
+            "kind": "CL",
+            "n": 24,
+            "title": "Time Complexity and Practice with Sets and Dictionaries",
+            "date": "2025-03-24",
+            "deadline": "2025-03-24",
+            "links": {
+                "Slides": "/static/slides/CL24_TimeComplexityandPracticeSetsDictionaries.pdf",
+                "Recording": "https://youtu.be/oNGbGW53aNA"
+            }
+        }
+    ]
 }
