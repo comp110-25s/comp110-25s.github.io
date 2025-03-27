@@ -642,7 +642,8 @@
             "date": "2025-03-26",
             "deadline": "2025-03-26",
             "links": {
-                "Slides": "/static/slides/CL25_ QuizReview.pdf"
+                "Slides": "/static/slides/CL25_ QuizReview.pdf",
+                "Recording": "https://youtu.be/Ca5Gz1FtnIw"
             }
         }
     ],

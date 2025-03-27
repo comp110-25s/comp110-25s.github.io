@@ -633,5 +633,18 @@
             }
         }
     ],
-    "2025-03-25": []
+    "2025-03-25": [],
+    "2025-03-26": [
+        {
+            "kind": "CL",
+            "n": 25,
+            "title": "Quiz Review",
+            "date": "2025-03-26",
+            "deadline": "2025-03-26",
+            "links": {
+                "Slides": "/static/slides/CL25_ QuizReview.pdf",
+                "Recording": "https://youtu.be/Ca5Gz1FtnIw"
+            }
+        }
+    ]
 }
