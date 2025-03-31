@@ -1,25 +1,26 @@
 {
-    "2025-03-27": [],
-    "2025-03-28": [
+    "2025-03-31": [
         {
-            "kind": "QZ",
-            "n": 3,
-            "title": "Quiz 3",
-            "date": "2025-03-28",
-            "deadline": "2025-03-28",
+            "kind": "CL",
+            "n": 26,
+            "title": "Intro to Object-Oriented Programming",
+            "date": "2025-03-31",
+            "deadline": "2025-03-31",
             "links": {
-                "Read Quiz Expectations": "/resources/quiz-expectations.html",
-                "Review Session Slides": "/static/slides/COMP110_Quiz3_ReviewSession.pdf",
-                "Review Session Recording": "https://youtu.be/22D1uWZ-GF8",
-                "Practice Quiz": "/static/practice/comp110-s25-qz03-practice_IH.pdf",
-                "Practice Quiz Key": "/static/practice/comp110-s25-qz03-practice_IH-key.pdf",
-                "Practice Quiz Explanations": "https://youtu.be/88Xl0ywz47o"
+                "Slides": "/static/slides/CL26_IntrotoOOP.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 12,
+            "title": "Intro to OOP",
+            "date": "2025-03-31",
+            "deadline": "2025-03-31",
+            "links": {
+                "Complete Lesson 12 Responses on Gradescope": "https://www.gradescope.com/"
             }
         }
     ],
-    "2025-03-29": [],
-    "2025-03-30": [],
-    "2025-03-31": [],
     "2025-04-01": [],
     "2025-04-02": [],
     "2025-04-03": [],

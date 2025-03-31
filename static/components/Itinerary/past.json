@@ -646,5 +646,25 @@
                 "Recording": "https://youtu.be/Ca5Gz1FtnIw"
             }
         }
-    ]
+    ],
+    "2025-03-27": [],
+    "2025-03-28": [
+        {
+            "kind": "QZ",
+            "n": 3,
+            "title": "Quiz 3",
+            "date": "2025-03-28",
+            "deadline": "2025-03-28",
+            "links": {
+                "Read Quiz Expectations": "/resources/quiz-expectations.html",
+                "Review Session Slides": "/static/slides/COMP110_Quiz3_ReviewSession.pdf",
+                "Review Session Recording": "https://youtu.be/22D1uWZ-GF8",
+                "Practice Quiz": "/static/practice/comp110-s25-qz03-practice_IH.pdf",
+                "Practice Quiz Key": "/static/practice/comp110-s25-qz03-practice_IH-key.pdf",
+                "Practice Quiz Explanations": "https://youtu.be/88Xl0ywz47o"
+            }
+        }
+    ],
+    "2025-03-29": [],
+    "2025-03-30": []
 }
