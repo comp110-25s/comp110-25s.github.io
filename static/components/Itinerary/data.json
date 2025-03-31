@@ -675,15 +675,16 @@
             "date": "2025-03-31",
             "deadline": "2025-03-31",
             "links": {
-                "Slides": "/static/slides/CL26_IntrotoOOP.pdf"
+                "Slides": "/static/slides/CL26_IntrotoOOP.pdf",
+                "Recording": "https://youtu.be/h5Awm3rc87I"
             }
         },
         {
             "kind": "LS",
             "n": 12,
-            "title": "Intro to OOP",
+            "title": "Intro to OOP (Due Wednesday 4/2)",
             "date": "2025-03-31",
-            "deadline": "2025-03-31",
+            "deadline": "2025-04-02",
             "links": {
                 "Complete Lesson 12 Responses on Gradescope": "https://www.gradescope.com/"
             }
