@@ -1,29 +1,26 @@
 {
-    "2025-03-31": [
+    "2025-04-02": [
         {
             "kind": "CL",
-            "n": 26,
-            "title": "Intro to Object-Oriented Programming",
-            "date": "2025-03-31",
-            "deadline": "2025-03-31",
+            "n": 27,
+            "title": "OOP Part 2: Classes and Methods",
+            "date": "2025-04-02",
+            "deadline": "2025-04-02",
             "links": {
-                "Slides": "/static/slides/CL26_IntrotoOOP.pdf",
-                "Recording": "https://youtu.be/h5Awm3rc87I"
+                "Slides": "/static/slides/CL27_OOPpt2.pdf"
             }
         },
         {
-            "kind": "LS",
-            "n": 12,
-            "title": "Intro to OOP (Due Wednesday 4/2)",
-            "date": "2025-03-31",
+            "kind": "CQ",
+            "n": 5,
+            "title": "OOP Memory Diagram",
+            "date": "2025-04-02",
             "deadline": "2025-04-02",
             "links": {
-                "Complete Lesson 12 Responses on Gradescope": "https://www.gradescope.com/"
+                "": "https://www.gradescope.com"
             }
         }
     ],
-    "2025-04-01": [],
-    "2025-04-02": [],
     "2025-04-03": [],
     "2025-04-04": [],
     "2025-04-05": [],
