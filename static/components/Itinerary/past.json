@@ -690,5 +690,28 @@
             }
         }
     ],
-    "2025-04-01": []
+    "2025-04-01": [],
+    "2025-04-02": [
+        {
+            "kind": "CL",
+            "n": 27,
+            "title": "OOP Part 2: Classes and Methods",
+            "date": "2025-04-02",
+            "deadline": "2025-04-02",
+            "links": {
+                "Slides": "/static/slides/CL27_OOPpt2.pdf",
+                "Recording": "https://youtu.be/0SGS2tX1cEk"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 5,
+            "title": "OOP Memory Diagram",
+            "date": "2025-04-02",
+            "deadline": "2025-04-02",
+            "links": {
+                "": "https://www.gradescope.com"
+            }
+        }
+    ]
 }
