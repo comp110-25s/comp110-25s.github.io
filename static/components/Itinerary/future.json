@@ -1,6 +1,26 @@
 {
-    "2025-04-03": [],
-    "2025-04-04": [],
+    "2025-04-04": [
+        {
+            "kind": "CL",
+            "n": 28,
+            "title": "OOP Part 3: Magic Methods and Practice",
+            "date": "2025-04-04",
+            "deadline": "2025-04-04",
+            "links": {
+                "Slides": ""
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "River Simulation (Due Friday 4/11)",
+            "date": "2025-04-04",
+            "deadline": "2025-04-11",
+            "links": {
+                "": "/exercises/ex04_river_sim.md"
+            }
+        }
+    ],
     "2025-04-05": [],
     "2025-04-06": [],
     "2025-04-07": [],
