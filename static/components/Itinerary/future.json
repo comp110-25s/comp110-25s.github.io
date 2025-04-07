@@ -3,11 +3,11 @@
         {
             "kind": "CL",
             "n": 29,
-            "title": "",
+            "title": "Magic Methods and Recursion Review",
             "date": "2025-04-07",
             "deadline": "2025-04-07",
             "links": {
-                "Slides": ""
+                "Slides": "/static/slides/cl29.pdf"
             }
         }
     ],
