@@ -1,24 +1,13 @@
 {
-    "2025-04-06": [],
     "2025-04-07": [
         {
             "kind": "CL",
             "n": 29,
-            "title": "Intro to Recursive Structures",
+            "title": "",
             "date": "2025-04-07",
             "deadline": "2025-04-07",
             "links": {
                 "Slides": ""
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 13,
-            "title": "Recursive Structures",
-            "date": "2025-04-07",
-            "deadline": "2025-04-07",
-            "links": {
-                "Complete Lesson 13 Responses on Gradescope": "https://www.gradescope.com/"
             }
         }
     ],
@@ -40,7 +29,7 @@
             "links": {
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
                 "Review Session on Mon, April 14 from 6:15-7:15pm in Fred Brooks (FB), room 009": "/",
-                "Practice Quiz": "/static/practice/comp110-s25-qz03-practice_IH.pdf"
+                "Practice Quiz": ""
             }
         }
     ],
