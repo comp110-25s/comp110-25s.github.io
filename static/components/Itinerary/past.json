@@ -714,5 +714,39 @@
             }
         }
     ],
-    "2025-04-03": []
+    "2025-04-03": [],
+    "2025-04-04": [
+        {
+            "kind": "CL",
+            "n": 28,
+            "title": "OOP Practice",
+            "date": "2025-04-04",
+            "deadline": "2025-04-04",
+            "links": {
+                "Slides": "/static/slides/CL28_OOPpractice_noMD.pdf",
+                "Recording": "https://youtu.be/6ZhZfn3kvNI"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "River Simulation (Due Friday 4/11)",
+            "date": "2025-04-04",
+            "deadline": "2025-04-11",
+            "links": {
+                "": "/exercises/ex04_river_sim.html"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 6,
+            "title": "OOP Code-Writing",
+            "date": "2025-04-04",
+            "deadline": "2025-04-04",
+            "links": {
+                "": "https://www.gradescope.com"
+            }
+        }
+    ],
+    "2025-04-05": []
 }
