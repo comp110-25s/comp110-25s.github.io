@@ -763,7 +763,28 @@
         }
     ],
     "2025-04-08": [],
-    "2025-04-09": [],
+    "2025-04-09": [
+        {
+            "kind": "CL",
+            "n": 30,
+            "title": "Recursive Structures and Processes",
+            "date": "2025-04-09",
+            "deadline": "2025-04-09",
+            "links": {
+                "Slides": "/static/slides/CL30_RecursiveStructures.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 13,
+            "title": "Recursive Structures (Due Thursday 4/10)",
+            "date": "2025-04-09",
+            "deadline": "2025-04-10",
+            "links": {
+                "Complete Lesson 13 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2025-04-10": [],
     "2025-04-11": [],
     "2025-04-12": [],

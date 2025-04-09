@@ -749,5 +749,18 @@
         }
     ],
     "2025-04-05": [],
-    "2025-04-06": []
+    "2025-04-06": [],
+    "2025-04-07": [
+        {
+            "kind": "CL",
+            "n": 29,
+            "title": "Magic Methods and Recursion Review",
+            "date": "2025-04-07",
+            "deadline": "2025-04-07",
+            "links": {
+                "Slides": "/static/slides/cl29.pdf"
+            }
+        }
+    ],
+    "2025-04-08": []
 }
