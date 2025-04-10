@@ -758,7 +758,8 @@
             "date": "2025-04-07",
             "deadline": "2025-04-07",
             "links": {
-                "Slides": "/static/slides/cl29.pdf"
+                "Slides": "/static/slides/cl29.pdf",
+                "Recording": "https://youtu.be/iKVZtQ0V-bo"
             }
         }
     ],
@@ -771,7 +772,8 @@
             "date": "2025-04-09",
             "deadline": "2025-04-09",
             "links": {
-                "Slides": "/static/slides/CL30_RecursiveStructures.pdf"
+                "Slides": "/static/slides/CL30_RecursiveStructuresNProcesses.pdf",
+                "Recording": "https://youtu.be/M2jQ2PJk2NE"
             }
         },
         {
