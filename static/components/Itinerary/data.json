@@ -788,7 +788,18 @@
         }
     ],
     "2025-04-10": [],
-    "2025-04-11": [],
+    "2025-04-11": [
+        {
+            "kind": "CL",
+            "n": 31,
+            "title": "Recursive Linked List Building Algorithms",
+            "date": "2025-04-11",
+            "deadline": "2025-04-11",
+            "links": {
+                "Slides": "/static/slides/CL31_practice.pdf"
+            }
+        }
+    ],
     "2025-04-12": [],
     "2025-04-13": [],
     "2025-04-14": [],

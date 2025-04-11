@@ -1,29 +1,16 @@
 {
-    "2025-04-09": [
+    "2025-04-11": [
         {
             "kind": "CL",
-            "n": 30,
-            "title": "Recursive Structures and Processes",
-            "date": "2025-04-09",
-            "deadline": "2025-04-09",
+            "n": 31,
+            "title": "Recursive Linked List Building Algorithms",
+            "date": "2025-04-11",
+            "deadline": "2025-04-11",
             "links": {
-                "Slides": "/static/slides/CL30_RecursiveStructuresNProcesses.pdf",
-                "Recording": "https://youtu.be/M2jQ2PJk2NE"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 13,
-            "title": "Recursive Structures (Due Thursday 4/10)",
-            "date": "2025-04-09",
-            "deadline": "2025-04-10",
-            "links": {
-                "Complete Lesson 13 Responses on Gradescope": "https://www.gradescope.com/"
+                "Slides": "/static/slides/CL31_practice.pdf"
             }
         }
     ],
-    "2025-04-10": [],
-    "2025-04-11": [],
     "2025-04-12": [],
     "2025-04-13": [],
     "2025-04-14": [],
