@@ -1,6 +1,16 @@
 {
-    "2025-04-13": [],
-    "2025-04-14": [],
+    "2025-04-14": [
+        {
+            "kind": "CL",
+            "n": 32,
+            "title": "Building Linked Lists with Recursive Algorithms",
+            "date": "2025-04-14",
+            "deadline": "2025-04-14",
+            "links": {
+                "Slides": "/static/slides/CL32_building_lls.pdf"
+            }
+        }
+    ],
     "2025-04-15": [],
     "2025-04-16": [
         {
