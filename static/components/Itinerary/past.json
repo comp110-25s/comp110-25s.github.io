@@ -787,5 +787,19 @@
             }
         }
     ],
-    "2025-04-10": []
+    "2025-04-10": [],
+    "2025-04-11": [
+        {
+            "kind": "CL",
+            "n": 31,
+            "title": "Practice with Recursive Structures and Processes",
+            "date": "2025-04-11",
+            "deadline": "2025-04-11",
+            "links": {
+                "Slides": "/static/slides/CL31_practice.pdf",
+                "Recording": "https://youtu.be/qMGK8xAZFFA"
+            }
+        }
+    ],
+    "2025-04-12": []
 }

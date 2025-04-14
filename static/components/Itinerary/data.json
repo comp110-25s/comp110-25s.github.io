@@ -792,11 +792,12 @@
         {
             "kind": "CL",
             "n": 31,
-            "title": "Recursive Linked List Building Algorithms",
+            "title": "Practice with Recursive Structures and Processes",
             "date": "2025-04-11",
             "deadline": "2025-04-11",
             "links": {
-                "Slides": "/static/slides/CL31_practice.pdf"
+                "Slides": "/static/slides/CL31_practice.pdf",
+                "Recording": "https://youtu.be/qMGK8xAZFFA"
             }
         }
     ],
@@ -814,7 +815,8 @@
             "links": {
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
                 "Review Session on Mon, April 14 from 6:15-7:15pm in Fred Brooks (FB), room 009": "/",
-                "Practice Quiz": "/static/practice/comp110-s25-qz04-practice_IH.pdf"
+                "Practice Quiz": "/static/practice/comp110-s25-qz04-practice_IH.pdf",
+                "Practice Quiz Key": "/static/practice/comp110-s25-qz04-practice_IH-key.pdf"
             }
         }
     ],
