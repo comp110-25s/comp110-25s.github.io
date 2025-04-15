@@ -836,7 +836,8 @@
             "deadline": "2025-04-16",
             "links": {
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
-                "Review Session on Mon, April 14 from 6:15-7:15pm in Fred Brooks (FB), room 009": "/",
+                "Review Session Slides": "/static/slides/COMP110_Quiz4_ReviewSession.pdf",
+                "Review Session Recording": "https://youtu.be/l6WWeIG0NlI",
                 "Practice Quiz": "/static/practice/comp110-s25-qz04-practice_IH.pdf",
                 "Practice Quiz Key": "/static/practice/comp110-s25-qz04-practice_IH-key.pdf"
             }

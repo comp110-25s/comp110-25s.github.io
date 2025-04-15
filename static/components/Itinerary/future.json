@@ -1,27 +1,4 @@
 {
-    "2025-04-14": [
-        {
-            "kind": "CL",
-            "n": 32,
-            "title": "Building Linked Lists with Recursive Algorithms",
-            "date": "2025-04-14",
-            "deadline": "2025-04-14",
-            "links": {
-                "Slides": "/static/slides/CL32_building_lls.pdf",
-                "Recording": "https://youtu.be/Ct7FBmnDib0"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 5,
-            "title": "Linked List Utility Functions (Due Monday 4/21)",
-            "date": "2025-04-14",
-            "deadline": "2025-04-21",
-            "links": {
-                "": "/exercises/linked_list_utils.html"
-            }
-        }
-    ],
     "2025-04-15": [],
     "2025-04-16": [
         {
@@ -32,7 +9,8 @@
             "deadline": "2025-04-16",
             "links": {
                 "Read Quiz Expectations": "/resources/quiz-expectations.html",
-                "Review Session on Mon, April 14 from 6:15-7:15pm in Fred Brooks (FB), room 009": "/",
+                "Review Session Slides": "/static/slides/COMP110_Quiz4_ReviewSession.pdf",
+                "Review Session Recording": "https://youtu.be/l6WWeIG0NlI",
                 "Practice Quiz": "/static/practice/comp110-s25-qz04-practice_IH.pdf",
                 "Practice Quiz Key": "/static/practice/comp110-s25-qz04-practice_IH-key.pdf"
             }

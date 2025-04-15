@@ -802,5 +802,28 @@
         }
     ],
     "2025-04-12": [],
-    "2025-04-13": []
+    "2025-04-13": [],
+    "2025-04-14": [
+        {
+            "kind": "CL",
+            "n": 32,
+            "title": "Building Linked Lists with Recursive Algorithms",
+            "date": "2025-04-14",
+            "deadline": "2025-04-14",
+            "links": {
+                "Slides": "/static/slides/CL32_building_lls.pdf",
+                "Recording": "https://youtu.be/Ct7FBmnDib0"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 5,
+            "title": "Linked List Utility Functions (Due Monday 4/21)",
+            "date": "2025-04-14",
+            "deadline": "2025-04-21",
+            "links": {
+                "": "/exercises/linked_list_utils.html"
+            }
+        }
+    ]
 }
