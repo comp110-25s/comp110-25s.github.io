@@ -9,6 +9,16 @@
             "links": {
                 "Slides": "/static/slides/CL32_building_lls.pdf"
             }
+        },
+        {
+            "kind": "EX",
+            "n": 5,
+            "title": "Linked List Utility Functions (Due Monday 4/21)",
+            "date": "2025-04-14",
+            "deadline": "2025-04-21",
+            "links": {
+                "": "/exercises/linked_list_utils.html"
+            }
         }
     ],
     "2025-04-15": [],
