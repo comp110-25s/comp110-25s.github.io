@@ -867,6 +867,16 @@
             "links": {
                 "": "https://www.gradescope.com"
             }
+        },
+        {
+            "kind": "RD",
+            "n": 0,
+            "title": "Weapons of Math Destruction (Due Friday 4/25)",
+            "date": "2025-04-21",
+            "deadline": "2025-04-25",
+            "links": {
+                "": "https://gradescope.com"
+            }
         }
     ],
     "2025-04-22": [],

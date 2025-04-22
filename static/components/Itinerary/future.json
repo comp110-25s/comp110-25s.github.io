@@ -1,26 +1,4 @@
 {
-    "2025-04-21": [
-        {
-            "kind": "CL",
-            "n": 33,
-            "title": "Revisiting Commonly Missed Quiz Concepts",
-            "date": "2025-04-21",
-            "deadline": "2025-04-21",
-            "links": {
-                "Slides": "/static/slides/CL33_quiz_concepts.pdf"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 7,
-            "title": "Quiz Corrections",
-            "date": "2025-04-21",
-            "deadline": "2025-04-21",
-            "links": {
-                "": "https://www.gradescope.com"
-            }
-        }
-    ],
     "2025-04-22": [],
     "2025-04-23": [],
     "2025-04-24": [],
