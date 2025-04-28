@@ -908,7 +908,19 @@
     ],
     "2025-04-26": [],
     "2025-04-27": [],
-    "2025-04-28": [],
+    "2025-04-28": [
+        {
+            "kind": "CL",
+            "n": 36,
+            "title": "Quantifying Shakespeare",
+            "date": "2025-04-28",
+            "deadline": "2025-04-28",
+            "links": {
+                "Slides": "/static/slides/CL36_review.pdf",
+                "Supplemental Final Exam Practice": "/static/practice/comp110-s25-fn00-practice.pdf"
+            }
+        }
+    ],
     "2025-05-01": [
         {
             "kind": "FN",
