@@ -926,7 +926,9 @@
                 "Practice Quiz 3": "/static/practice/comp110-s25-qz03-practice_IH.pdf",
                 "Practice Quiz 3 Key": "/static/practice/comp110-s25-qz03-practice_IH-key.pdf",
                 "Practice Quiz 4": "/static/practice/comp110-s25-qz04-practice_IH.pdf",
-                "Practice Quiz 4 Key": "/static/practice/comp110-s25-qz04-practice_IH-key-updated.pdf"
+                "Practice Quiz 4 Key": "/static/practice/comp110-s25-qz04-practice_IH-key-updated.pdf",
+                "Supplemental Final Exam Practice": "/static/practice/fn00-practice-pt1.pdf",
+                "Supplemental Final Exam Practice Key": "/static/practice/fn00-practice-pt1-key.pdf"
             }
         }
     ],
