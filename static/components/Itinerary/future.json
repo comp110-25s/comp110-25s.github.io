@@ -1,28 +1,4 @@
 {
-    "2025-04-28": [
-        {
-            "kind": "CL",
-            "n": 36,
-            "title": "Final Practice",
-            "date": "2025-04-28",
-            "deadline": "2025-04-28",
-            "links": {
-                "Slides": "/static/slides/CL36_review.pdf",
-                "Practice Quiz 0": "/static/practice/comp110-s25-qz00-practice.pdf",
-                "Practice Quiz 0 Key": "/static/practice/comp110-s25-qz00-practice_IH.pdf",
-                "Practice Quiz 1": "/static/practice/comp110-s25-qz01-practice_IH.pdf",
-                "Practice Quiz 1 Key": "/static/practice/comp110-s25-qz01-practice-key.pdf",
-                "Practice Quiz 2": "/static/practice/comp110-s25-qz02-practice_IH.pdf",
-                "Practice Quiz 2 Key": "/static/practice/comp110-s25-qz02-practice_IH-key.pdf",
-                "Practice Quiz 3": "/static/practice/comp110-s25-qz03-practice_IH.pdf",
-                "Practice Quiz 3 Key": "/static/practice/comp110-s25-qz03-practice_IH-key.pdf",
-                "Practice Quiz 4": "/static/practice/comp110-s25-qz04-practice_IH.pdf",
-                "Practice Quiz 4 Key": "/static/practice/comp110-s25-qz04-practice_IH-key-updated.pdf",
-                "Supplemental Final Exam Practice": "/static/practice/fn00-practice-pt1.pdf",
-                "Supplemental Final Exam Practice Key": "/static/practice/fn00-practice-pt1-key.pdf"
-            }
-        }
-    ],
     "2025-05-01": [
         {
             "kind": "FN",
